@@ -36,6 +36,7 @@ Write a new JSON object with exactly the same fields as `rate-data.json` (keep `
 - `talkingPoints`: buyers, sellers, and a one-sentence `oneLiner` an agent can repeat. No lock/float instructions; offer considerations only.
 - `paymentCompare`: keep the first entry as the Freddie Mac value about eight weeks earlier (from `trend.points[0]`), then the latest Freddie Mac value, then "Today" with the daily value.
 - `scorecard`: carry the list forward. On the first run of each week (Monday, or the first trading day), append a new call `{made, base, up, flat, down, gradeOn (made + 30 days), actual: null, result: null}` using today's outlook. For any call whose `gradeOn` is today or earlier and `result` is null: set `actual` to that day's daily value and `result` to "hit" if the bucket that happened (higher / same / lower versus `base`, same = within ±0.125) was the bucket given the highest probability, else "miss".
+- `keyRates`: refresh from the Federal Reserve H.15 release and the WSJ Prime Rate (two sources). When the Fed changes rates, update `fedFunds` (low, high, effective, lastChange, lastMove), `prime` (value, prior, lastChange), append `{date, prime}` to `history`, and drop history entries older than three years except the one in effect at the start of the window (re-date it to the window start). Update `nextMeeting`.
 - `sources`: every source used, each with name, date and URL.
 - Set `largeMoveConfirmed: true` only if a one-day move of 0.35% or more is confirmed by two independent sources.
 

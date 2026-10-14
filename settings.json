@@ -4,5 +4,6 @@
   "showScorecard": true,
   "showSignup": true,
   "publishMode": "review",
-  "paused": false
+  "paused": false,
+  "showKeyRates": true
 }

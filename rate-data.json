@@ -383,6 +383,16 @@
       "name": "MortgageDaily: Optimal Blue daily",
       "date": "Oct 14, 2026",
       "url": "https://www.mortgagedaily.com/rates/mortgage-rates-today-2026-10-14/"
+    },
+    {
+      "name": "Federal Reserve H.15: fed funds and bank prime rate",
+      "date": "Oct 13, 2026",
+      "url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "FedPrimeRate.com: WSJ Prime Rate history",
+      "date": "Oct 14, 2026",
+      "url": "https://www.fedprimerate.com/wall_street_journal_prime_rate_history.htm"
     }
   ],
   "checks": [
@@ -448,5 +458,60 @@
     }
   ],
   "status": "published",
-  "publishedBy": "Initial setup"
+  "publishedBy": "Initial setup",
+  "keyRates": {
+    "title": "Key rates: Fed funds and prime",
+    "fedFunds": {
+      "low": 3.75,
+      "high": 4.0,
+      "effective": 3.88,
+      "effectiveAsOf": "2026-10-12",
+      "lastChange": "2026-09-16",
+      "lastMove": 0.25
+    },
+    "prime": {
+      "value": 7.0,
+      "prior": 6.75,
+      "asOf": "2026-10-12",
+      "lastChange": "2026-09-16"
+    },
+    "nextMeeting": "2026-10-28",
+    "nextMeetingLabel": "Wed, Oct 28",
+    "source": "Federal Reserve H.15 (Oct 12, 2026); WSJ Prime Rate history via FedPrimeRate.com (Oct 14, 2026)",
+    "history": [
+      {
+        "date": "2023-10-14",
+        "prime": 8.5
+      },
+      {
+        "date": "2024-09-18",
+        "prime": 8.0
+      },
+      {
+        "date": "2024-11-07",
+        "prime": 7.75
+      },
+      {
+        "date": "2024-12-18",
+        "prime": 7.5
+      },
+      {
+        "date": "2025-09-17",
+        "prime": 7.25
+      },
+      {
+        "date": "2025-10-29",
+        "prime": 7.0
+      },
+      {
+        "date": "2025-12-10",
+        "prime": 6.75
+      },
+      {
+        "date": "2026-09-16",
+        "prime": 7.0
+      }
+    ],
+    "historyNote": "Prime changes on the day of each Fed decision. The Fed funds range is prime minus 3% (top) and minus 3.25% (bottom). Oct 2023 value is the rate in effect since Jul 26, 2023."
+  }
 }
