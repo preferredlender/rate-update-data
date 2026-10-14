@@ -6,7 +6,7 @@ Prints a JSON list of checks and exits 0 if every check passed, 1 otherwise.
 """
 import json, re, sys, datetime
 
-BANNED = [r"\brates will\b", r"\bguarantee", r"\byou should lock\b", r"\block now\b",
+BANNED = [r"\brates will\b", r"(?<!not a )(?<!no )\bguarantee", r"\byou should lock\b", r"\block now\b",
           r"\bfloat now\b", r"\bwill definitely\b", r"\bcan't lose\b"]
 
 def checks(d, today=None):

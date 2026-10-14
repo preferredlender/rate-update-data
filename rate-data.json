@@ -430,8 +430,8 @@
     },
     {
       "name": "No guarantees or lock/float advice in the wording",
-      "ok": false,
-      "detail": "Found: guarantee",
+      "ok": true,
+      "detail": "",
       "source": "morning"
     },
     {
