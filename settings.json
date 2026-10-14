@@ -1,6 +1,6 @@
 {
   "showBuyingPower": true,
-  "showSurveys": true,
+  "showSurveys": false,
   "showScorecard": true,
   "showSignup": true,
   "publishMode": "review",
