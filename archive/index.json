@@ -1,1 +1,17 @@
-{"keepDays": 30, "reports": [{"date": "2026-10-14", "headline": "Hot Inflation Report Pushes Rates Back Up", "direction": "up", "rate": 7.56}]}
+{
+  "keepDays": 30,
+  "reports": [
+    {
+      "date": "2026-10-15",
+      "headline": "Investors Flee Stocks for Bonds, Easing Rates",
+      "direction": "flat",
+      "rate": 7.45
+    },
+    {
+      "date": "2026-10-14",
+      "headline": "Hot Inflation Report Pushes Rates Back Up",
+      "direction": "up",
+      "rate": 7.56
+    }
+  ]
+}
