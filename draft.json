@@ -503,20 +503,20 @@
       "source": "morning"
     }
   ],
-  "status": "pending",
-  "publishedBy": "",
+  "status": "published",
+  "publishedBy": "Stuart (control panel)",
   "keyRates": {
     "title": "Key rates: Fed funds and prime",
     "fedFunds": {
       "low": 3.75,
-      "high": 4.0,
+      "high": 4,
       "effective": 3.88,
       "effectiveAsOf": "2026-10-13",
       "lastChange": "2026-09-16",
       "lastMove": 0.25
     },
     "prime": {
-      "value": 7.0,
+      "value": 7,
       "prior": 6.75,
       "asOf": "2026-10-13",
       "lastChange": "2026-09-16"
@@ -531,7 +531,7 @@
       },
       {
         "date": "2024-09-18",
-        "prime": 8.0
+        "prime": 8
       },
       {
         "date": "2024-11-07",
@@ -547,7 +547,7 @@
       },
       {
         "date": "2025-10-29",
-        "prime": 7.0
+        "prime": 7
       },
       {
         "date": "2025-12-10",
@@ -555,9 +555,10 @@
       },
       {
         "date": "2026-09-16",
-        "prime": 7.0
+        "prime": 7
       }
     ],
     "historyNote": "Prime changes on the day of each Fed decision. The Fed funds range is prime minus 3% (top) and minus 3.25% (bottom). Oct 2023 value is the rate in effect since Jul 26, 2023."
-  }
+  },
+  "publishedAt": "2026-10-15T18:32:12.712Z"
 }
