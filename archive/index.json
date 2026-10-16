@@ -2,6 +2,12 @@
   "keepDays": 30,
   "reports": [
     {
+      "date": "2026-10-16",
+      "headline": "Safe-Haven Bond Buying Pulls Rates Lower",
+      "direction": "down",
+      "rate": 7.33
+    },
+    {
       "date": "2026-10-15",
       "headline": "Investors Flee Stocks for Bonds, Easing Rates",
       "direction": "flat",
