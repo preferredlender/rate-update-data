@@ -5,5 +5,5 @@
   "showSignup": true,
   "publishMode": "review",
   "paused": false,
-  "showKeyRates": true
+  "showKeyRates": false
 }
