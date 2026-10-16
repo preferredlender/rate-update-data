@@ -13,6 +13,7 @@ This run is unattended. Do not ask questions. Follow these steps exactly.
 Use WebSearch (mode "extended" for recent data) and WebFetch. Never rely on memory for any number.
 - Daily 30-year fixed index: Mortgage News Daily (primary). Cross-check with at least one of Zillow (via Yahoo Finance or NerdWallet), Optimal Blue (via MortgageDaily), Mortgage Research Center (via Forbes/Fortune).
 - Freddie Mac PMMS weekly 30-year and 15-year (new value every Thursday, noon ET). MBA weekly contract rate (Wednesdays).
+- Optimal Blue 30-year jumbo index (for the Market Shift Flyer's jumbo option): WebFetch https://fred.stlouisfed.org/series/OBMMIJUMBO30YF and read the latest observation's date and value. Cross-check against the MBA weekly jumbo rate when one is out; if they differ by more than 0.30%, mention it in the commit message.
 - 10-year Treasury yield: latest close (FRED DGS10 / U.S. Treasury) and intraday if available.
 - What moved rates since the last update: economic data releases, Fed signals and officials' remarks, inflation, oil/energy, bond auctions, MBS market. Explain how each pushed rates up or down.
 - CME FedWatch odds for the next FOMC meeting (cite the outlet and time; flag if sources differ).
@@ -42,6 +43,9 @@ Write a new JSON object with exactly the same fields as `rate-data.json` (keep `
 
 ## 4. Check
 Save it as `draft.json`, then run `python3 tools/validate.py draft.json`. Put the printed list in the draft's `checks` field.
+
+## 4b. Jumbo index file (every run, whatever the publish mode)
+Append the Optimal Blue jumbo observation to `jumbo-index.json` → `daily` as `{date, value}` if that date is not already there (never change older entries), keep entries from the last 400 days, sort by date, and set `updated` to today. This is market data for the flyer, not commentary, so it is updated even when the update is pending, held or paused. If the FRED page can't be read, leave the file unchanged.
 
 ## 5. Publish or hold
 - If `settings.paused` is true: set `status` to "pending" and do not publish.
