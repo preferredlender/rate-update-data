@@ -1,5 +1,5 @@
 {
-  "showBuyingPower": false,
+  "showBuyingPower": true,
   "showSurveys": true,
   "showScorecard": true,
   "showSignup": true,
