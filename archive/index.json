@@ -2,6 +2,12 @@
   "keepDays": 30,
   "reports": [
     {
+      "date": "2026-10-20",
+      "headline": "Tech Rebound and Pricey Oil Nudge Rates Higher",
+      "direction": "up",
+      "rate": 7.43
+    },
+    {
       "date": "2026-10-19",
       "headline": "Rates Edge Up After Last Week's Big Bond Rally",
       "direction": "up",
