@@ -2,6 +2,12 @@
   "keepDays": 30,
   "reports": [
     {
+      "date": "2026-10-21",
+      "headline": "Weak Housing Data Keeps Rates Steady, a Touch Lower",
+      "direction": "flat",
+      "rate": 7.4
+    },
+    {
       "date": "2026-10-20",
       "headline": "Tech Rebound and Pricey Oil Nudge Rates Higher",
       "direction": "up",
