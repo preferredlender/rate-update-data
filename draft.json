@@ -476,7 +476,7 @@
       "url": "https://www.bridgepointrea.com/blog/freddie-mac-mortgage-rates-7-40-october-2026"
     }
   ],
-  "status": "pending",
+  "status": "published",
   "keyRates": {
     "title": "Key rates: Fed funds and prime",
     "fedFunds": {
@@ -594,5 +594,7 @@
       "detail": "",
       "source": "morning"
     }
-  ]
+  ],
+  "publishedAt": "2026-10-22T16:56:00.915Z",
+  "publishedBy": "Stuart (control panel)"
 }
