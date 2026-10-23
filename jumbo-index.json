@@ -6,7 +6,7 @@
  "retrievedFrom": "FRED, Federal Reserve Bank of St. Louis",
  "url": "https://fred.stlouisfed.org/series/OBMMIJUMBO30YF",
  "citation": "Optimal Blue, 30-Year Fixed Rate Jumbo Mortgage Index [OBMMIJUMBO30YF], retrieved from FRED, Federal Reserve Bank of St. Louis",
- "updated": "2026-10-22",
+ "updated": "2026-10-23",
  "daily": [
   {
    "date": "2026-03-02",
@@ -651,6 +651,14 @@
   {
    "date": "2026-10-19",
    "value": 7.513
+  },
+  {
+   "date": "2026-10-20",
+   "value": 7.33
+  },
+  {
+   "date": "2026-10-21",
+   "value": 7.609
   }
  ]
 }
