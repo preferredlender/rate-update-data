@@ -2,6 +2,12 @@
   "keepDays": 30,
   "reports": [
     {
+      "date": "2026-10-23",
+      "headline": "Tech Selloff Sparks a Bond Rally, Pulling Rates Lower",
+      "direction": "down",
+      "rate": 7.3
+    },
+    {
       "date": "2026-10-22",
       "headline": "Rates Hold Steady as Stock Jitters Lift Bonds",
       "direction": "flat",
