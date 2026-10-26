@@ -2,6 +2,12 @@
   "keepDays": 30,
   "reports": [
     {
+      "date": "2026-10-26",
+      "headline": "Rates Hold Near 1-Month Lows as Oil Eases Into Fed Week",
+      "direction": "flat",
+      "rate": 7.33
+    },
+    {
       "date": "2026-10-23",
       "headline": "Tech Selloff Sparks a Bond Rally, Pulling Rates Lower",
       "direction": "down",
