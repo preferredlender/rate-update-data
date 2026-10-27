@@ -2,6 +2,12 @@
   "keepDays": 30,
   "reports": [
     {
+      "date": "2026-10-27",
+      "headline": "Rates Hold Steady as Markets Wait on the Fed",
+      "direction": "flat",
+      "rate": 7.33
+    },
+    {
       "date": "2026-10-26",
       "headline": "Rates Hold Near 1-Month Lows as Oil Eases Into Fed Week",
       "direction": "flat",
