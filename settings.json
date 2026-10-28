@@ -9,5 +9,6 @@
   "showGap": true,
   "showJumbo": true,
   "showLocal": false,
-  "showEconomy": true
+  "showEconomy": true,
+  "showGauge": false
 }
