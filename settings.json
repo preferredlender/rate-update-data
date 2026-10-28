@@ -7,5 +7,7 @@
   "paused": false,
   "showKeyRates": true,
   "showGap": true,
-  "showJumbo": true
+  "showJumbo": true,
+  "showLocal": false,
+  "showEconomy": true
 }
