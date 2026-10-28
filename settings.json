@@ -5,5 +5,7 @@
   "showSignup": true,
   "publishMode": "review",
   "paused": false,
-  "showKeyRates": true
+  "showKeyRates": true,
+  "showGap": true,
+  "showJumbo": true
 }

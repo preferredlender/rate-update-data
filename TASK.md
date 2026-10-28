@@ -15,6 +15,8 @@ Use WebSearch (mode "extended" for recent data) and WebFetch. Never rely on memo
 - Freddie Mac PMMS weekly 30-year and 15-year (new value every Thursday, noon ET). MBA weekly contract rate (Wednesdays).
 - Optimal Blue 30-year jumbo index (for the Market Shift Flyer's jumbo option): WebFetch https://fred.stlouisfed.org/series/OBMMIJUMBO30YF and read the latest observation's date and value. Cross-check against the MBA weekly jumbo rate when one is out; if they differ by more than 0.30%, mention it in the commit message.
 - 10-year Treasury yield: latest close (FRED DGS10 / U.S. Treasury) and intraday if available.
+- Optimal Blue 30-year conforming index: WebFetch https://fred.stlouisfed.org/series/OBMMIC30YF and read the latest observation's date and value. Also WebFetch https://fred.stlouisfed.org/series/DGS10 for the 10-year close on that same date. These feed the rate gap tracker (step 4c).
+- For each data release in the calendar window (CPI, PCE, jobs, retail sales, PPI, GDP), the consensus forecast and the prior reading, from two sources (for example Reuters, CNBC, MarketWatch or Investing.com economic calendars). For releases that came out since the last update, the actual number.
 - What moved rates since the last update: economic data releases, Fed signals and officials' remarks, inflation, oil/energy, bond auctions, MBS market. Explain how each pushed rates up or down.
 - CME FedWatch odds for the next FOMC meeting (cite the outlet and time; flag if sources differ).
 - Upcoming events for the next 30 days with dates (CPI, PCE, jobs report, FOMC, PPI, retail sales). Confirm dates from the BLS/BEA/Fed calendars; mark anything unconfirmed as "date to be confirmed".
@@ -32,8 +34,13 @@ Write a new JSON object with exactly the same fields as `rate-data.json` (keep `
 - `surveys.items`: today's 30-year value from every survey you checked, each with its date.
 - `cpi` and `fedOdds`: refresh when there is new data; otherwise carry forward unchanged, but update `fedOdds` if odds moved.
 - `drivers`: 3 to 5, each with `effect` up/down, `weight` 1-3 and a plain-language explanation of HOW it moved rates.
+- When any text mentions the gap between mortgage rates and the 10-year Treasury, use today's gap from `market-detail.json` (conforming index minus 10-year close) and compare it with the long-run average there (`normalGap.avg`, about 1.76%). Do not call 2% "typical".
 - `outlook`: probabilities that the average 30-year fixed will be higher, about the same (within ±0.125%), or lower in 30 days versus today's daily value. Integers summing to 100. `basis` explains the reasoning honestly; `confidence` is usually "Low to moderate"; keep a `caveat` that it is an opinion, not a guarantee. Never say rates "will" do anything.
-- `calendar`: the next 30 days of events, soonest first, plus one "Ongoing" line if relevant.
+- `calendar`: releases from the past 7 days first, then the next 30 days of events, soonest first, plus one "Ongoing" line if relevant. Each item keeps `date`, `label`, `event`, `impact` (high / medium / low) and may add:
+  - `why`: one plain sentence on why it matters for rates (no jargon).
+  - `forecast` and `prior`: short strings with units, e.g. "3.6%" or "+110K". Only when two sources agree; otherwise leave them out.
+  - `actual`, once released, plus `surprise`: "hotter" if the result tends to push rates up (higher inflation, stronger economy), "cooler" if it tends to push rates down, or "inline". Add `surpriseLabel` when "hotter/cooler than expected" reads oddly, e.g. "stronger than expected" for jobs.
+  Drop released items after 7 days.
 - `talkingPoints`: buyers, sellers, and a one-sentence `oneLiner` an agent can repeat. No lock/float instructions; offer considerations only.
 - `paymentCompare`: keep the first entry as the Freddie Mac value about eight weeks earlier (from `trend.points[0]`), then the latest Freddie Mac value, then "Today" with the daily value.
 - `scorecard`: carry the list forward. On the first run of each week (Monday, or the first trading day), append a new call `{made, base, up, flat, down, gradeOn (made + 30 days), actual: null, result: null}` using today's outlook. For any call whose `gradeOn` is today or earlier and `result` is null: set `actual` to that day's daily value and `result` to "hit" if the bucket that happened (higher / same / lower versus `base`, same = within ±0.125) was the bucket given the highest probability, else "miss".
@@ -46,6 +53,10 @@ Save it as `draft.json`, then run `python3 tools/validate.py draft.json`. Put th
 
 ## 4b. Jumbo index file (every run, whatever the publish mode)
 Append the Optimal Blue jumbo observation to `jumbo-index.json` → `daily` as `{date, value}` if that date is not already there (never change older entries), keep entries from the last 400 days, sort by date, and set `updated` to today. This is market data for the flyer, not commentary, so it is updated even when the update is pending, held or paused. If the FRED page can't be read, leave the file unchanged.
+
+## 4c. Market detail file (every run, whatever the publish mode)
+After 4b, run `python3 tools/market_detail.py --date <latest FRED observation date> --ten <DGS10 close that date> --conf <OBMMIC30YF that date> --jumbo <OBMMIJUMBO30YF that date> --rate-data rate-data.json` (leave out any series FRED has no value for on that date). It updates `market-detail.json`: the daily log, the monthly history and the current month. It refuses values outside realistic ranges and never changes a day already recorded. If it exits with an error, leave the file unchanged and name the failed check in the commit message and the final report. If FRED can't be read, skip this step.
+Cross-check: the conforming index should be within 0.30% of the Mortgage News Daily or Freddie Mac 30-year value; if not, mention it in the commit message.
 
 ## 5. Publish or hold
 - If `settings.paused` is true: set `status` to "pending" and do not publish.
