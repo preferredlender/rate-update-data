@@ -26,7 +26,7 @@
     },
     "tenYear": {
       "label": "10-yr Treasury yield",
-      "value": 5.0,
+      "value": 5,
       "prior": 5.05,
       "priorLabel": "Oct 28",
       "source": "Trading Economics; Yahoo Finance; Admiral Markets; Daily Wrap (Substack)",
@@ -112,11 +112,11 @@
       },
       {
         "date": "2026-10-23",
-        "value": 5.0
+        "value": 5
       },
       {
         "date": "2026-10-26",
-        "value": 5.0
+        "value": 5
       },
       {
         "date": "2026-10-27",
@@ -128,7 +128,7 @@
       },
       {
         "date": "2026-10-29",
-        "value": 5.0,
+        "value": 5,
         "intraday": true
       }
     ]
@@ -571,7 +571,7 @@
       "url": "https://www.bridgepointrea.com/blog/freddie-mac-mortgage-rates-7-40-october-2026"
     }
   ],
-  "status": "pending",
+  "status": "published",
   "keyRates": {
     "title": "Key rates: Fed funds and prime",
     "fedFunds": {
@@ -689,5 +689,7 @@
       "detail": "",
       "source": "morning"
     }
-  ]
+  ],
+  "publishedAt": "2026-10-29T20:43:15.004Z",
+  "publishedBy": "Stuart (control panel)"
 }
