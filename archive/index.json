@@ -2,6 +2,12 @@
   "keepDays": 30,
   "reports": [
     {
+      "date": "2026-10-29",
+      "headline": "Hawkish Fed Hold Keeps a December Hike in View",
+      "direction": "flat",
+      "rate": 7.35
+    },
+    {
       "date": "2026-10-28",
       "headline": "Fed Day: Rates Hold Steady as Oil Climbs Again",
       "direction": "flat",
