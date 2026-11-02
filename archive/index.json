@@ -2,6 +2,12 @@
   "keepDays": 30,
   "reports": [
     {
+      "date": "2026-11-02",
+      "headline": "Rates Hold Near October Lows as Oil Prices Tumble",
+      "direction": "flat",
+      "rate": 7.27
+    },
+    {
       "date": "2026-10-30",
       "headline": "Bond Rally Pulls Rates to a One-Month Low",
       "direction": "down",
