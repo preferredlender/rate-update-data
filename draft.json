@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-10-30T08:20:00-07:00",
-  "updatedLabel": "Friday, October 30, 2026 · 8:20 AM PT",
-  "headline": "Bond Rally Pulls Rates to a One-Month Low",
-  "tileReason": "The daily 30-year average fell to 7.29%, its lowest this month, as Treasury yields slid on steady inflation data and a tech-stock selloff, and investors trimmed bets on a December Fed hike.",
-  "direction": "down",
-  "takeaway": "Mortgage rates took a step down. The daily 30-year average fell 0.06% to 7.29% on Thursday, the lowest reading this month, and Freddie Mac's weekly survey dropped to 7.24% from 7.32%. The main driver was the bond market. The 10-year Treasury yield, which mortgage rates tend to follow, fell from about 5.05% Wednesday to roughly 4.90%–4.98% at Thursday's close (sources differ on the exact level), its lowest in about seven weeks. September PCE inflation (the Fed's preferred gauge) matched forecasts at 3.6% over the past year, so there was no new inflation scare, and another round of disappointing tech earnings, this time from Amazon and Intel, sent investors toward the safety of bonds. That also cooled expectations for a December rate hike by the Federal Reserve (the Fed, the central bank): futures now put the odds at roughly 72% to 80%, down from about 83% to 88% right after Wednesday's meeting. This morning's Employment Cost Index, a measure of what employers pay in wages and benefits, rose 0.8% for the quarter, exactly as expected, with wage growth over the past year the slowest since early 2021. Working the other way, oil is climbing again after tanker attacks in the Strait of Hormuz, with Brent crude near $115 to $118 a barrel. The 10-year yield is about 4.93%–4.95% this morning, little changed from Thursday's market close, which points to steady lender pricing today. Mortgage rates are still unusually far above Treasuries: the Optimal Blue conforming index sat 2.17% above the 10-year on Oct 28, versus a long-run average of about 1.76%. Over the next month the odds look close to balanced, with a slight lean toward rates staying about where they are.",
+  "updated": "2026-11-02T08:15:00-08:00",
+  "updatedLabel": "Monday, November 2, 2026 · 8:15 AM PT",
+  "headline": "Rates Hold Near October Lows as Oil Prices Tumble",
+  "tileReason": "The daily 30-year average edged down to 7.27% Friday as a tech-stock selloff sent money into bonds, and this morning oil is sliding on hopes for U.S.-Iran diplomacy.",
+  "direction": "flat",
+  "takeaway": "Mortgage rates are holding near their lowest levels in about six weeks. The daily 30-year average slipped 0.02% to 7.27% on Friday, and Freddie Mac's weekly survey (next update Thursday) sits at 7.24%. Friday's small dip came from another rough day for big tech stocks: after weak results from Alphabet, Amazon and Intel, the tech-heavy Nasdaq 100 fell about 3.5%, and investors moved money into the safety of bonds. That helped the 10-year Treasury yield, which mortgage rates tend to follow, finish October down roughly 0.36% to 0.40%, its best month for bond prices since 2024. Friday's official Treasury close was 4.94%. Two Federal Reserve officials, Dallas Fed President Lorie Logan and St. Louis Fed President Alberto Musalem, said more rate hikes will be needed, which kept a December hike as the most likely outcome (futures put the odds at roughly 68% to 76%, depending on the source). This morning the big story is oil: crude is down about 4% after reports that President Trump wants to give talks with Iran more time, with Brent near $108 a barrel and U.S. crude just under $100, down from about $118 and $104 at Friday's close. Lower oil eases inflation worries. Working the other way, the October ISM factory survey came in stronger than expected at 55.5 (a reading above 50 means manufacturing is growing), though its measure of prices paid cooled. The 10-year yield is about 4.90%–4.92% this morning, slightly below Friday's close, which points to steady to slightly better lender pricing today. Mortgage rates are still unusually far above Treasuries: the Optimal Blue conforming index sat 2.17% above the 10-year on Oct 29, versus a long-run average of about 1.76%. Big tests this week: Tuesday's midterm elections and Friday's October jobs report.",
   "rates": {
     "daily": {
       "label": "30-yr fixed, daily index",
-      "value": 7.29,
-      "prior": 7.35,
-      "priorLabel": "Oct 28",
+      "value": 7.27,
+      "prior": 7.29,
+      "priorLabel": "Oct 29",
       "source": "Mortgage News Daily",
-      "asOf": "2026-10-29",
-      "note": "Latest close (Thu, Oct 29): 7.29%, down 0.06% and the lowest this month. Today's index posts in the afternoon; the 10-year yield is little changed this morning versus Thursday's market close, which usually points to steady lender pricing."
+      "asOf": "2026-10-30",
+      "note": "Latest close (Fri, Oct 30): 7.27%, down 0.02%. Today's index posts in the afternoon; the 10-year yield is slightly lower this morning than Friday's close and oil is falling, which usually points to steady to slightly better lender pricing."
     },
     "weekly": {
       "label": "30-yr fixed, Freddie Mac weekly",
@@ -26,12 +26,12 @@
     },
     "tenYear": {
       "label": "10-yr Treasury yield",
-      "value": 4.94,
-      "prior": 4.98,
-      "priorLabel": "Oct 29",
-      "source": "U.S. Treasury via Forbes; Trading Economics; Yahoo Finance; Reuters via Investing.com; 24/7 Wall St; Get Leveraged",
-      "asOf": "2026-10-30",
-      "note": "Intraday Friday morning, about 4.93%–4.95% (24/7 Wall St 4.927% at 8:37 AM ET, Investing.com 4.94%, Trading Economics and Yahoo Finance about 4.95%). Thursday's official Treasury close was 4.98% (via Forbes), down 0.07%; market closing quotes were lower, 4.90% (Get Leveraged) to 4.94% (Trading Economics), so today's intraday level is about flat versus the market close."
+      "value": 4.92,
+      "prior": 4.94,
+      "priorLabel": "Oct 30",
+      "source": "U.S. Treasury par curve via MortgageDaily and The Market Angle; Trading Economics; InvestingLive; Yahoo Finance; ChinaTechNews/ZeroHedge wrap",
+      "asOf": "2026-11-02",
+      "note": "Intraday Monday morning, about 4.90%–4.92% (InvestingLive 4.92%, Trading Economics 4.91%–4.92%, Yahoo Finance 4.90% early). Friday's official Treasury close was 4.94%; market closing quotes were about 4.93% (Trading Economics), and the yield touched about 4.89% during the day, its lowest since Sept 10."
     },
     "mba": {
       "label": "MBA contract rate",
@@ -104,19 +104,15 @@
   },
   "tenYearDaily": {
     "title": "10-year Treasury yield, daily close",
-    "source": "Federal Reserve H.15 (Oct 22–26); Oct 27–28 Treasury par-curve closes via MortgageDaily and 24/7 Wall St; Oct 29 Treasury close via Forbes; Oct 30 intraday via 24/7 Wall St, Investing.com, Trading Economics and Yahoo Finance",
+    "source": "Federal Reserve H.15 via FRED (Oct 23–29); Oct 30 Treasury par-curve close via MortgageDaily and The Market Angle; Nov 2 intraday via InvestingLive, Trading Economics and Yahoo Finance",
     "points": [
       {
-        "date": "2026-10-22",
-        "value": 4.96
-      },
-      {
         "date": "2026-10-23",
-        "value": 5
+        "value": 5.0
       },
       {
         "date": "2026-10-26",
-        "value": 5
+        "value": 5.0
       },
       {
         "date": "2026-10-27",
@@ -132,7 +128,11 @@
       },
       {
         "date": "2026-10-30",
-        "value": 4.94,
+        "value": 4.94
+      },
+      {
+        "date": "2026-11-02",
+        "value": 4.92,
         "intraday": true
       }
     ]
@@ -143,18 +143,18 @@
     "items": [
       {
         "source": "Zillow",
-        "value": 7.13,
-        "asOf": "Oct 30"
+        "value": 7.1,
+        "asOf": "Nov 2"
       },
       {
         "source": "Mortgage Research Ctr",
-        "value": 7.18,
-        "asOf": "Oct 30"
+        "value": 7.11,
+        "asOf": "Nov 2"
       },
       {
         "source": "Optimal Blue",
-        "value": 7.22,
-        "asOf": "Oct 28"
+        "value": 7.15,
+        "asOf": "Oct 30"
       },
       {
         "source": "Freddie Mac",
@@ -163,8 +163,8 @@
       },
       {
         "source": "Mortgage News Daily",
-        "value": 7.29,
-        "asOf": "Oct 29"
+        "value": 7.27,
+        "asOf": "Oct 30"
       },
       {
         "source": "MBA",
@@ -193,54 +193,54 @@
     "title": "Odds of a Fed hike on Dec 9",
     "before": 78,
     "beforeLabel": "Tue, Oct 27, before the meeting",
-    "afterLow": 72,
-    "afterHigh": 80,
-    "afterLabel": "Oct 29–30, after PCE, GDP and wage data",
-    "source": "CME FedWatch via Trading Economics (Oct 30), KuCoin News/BlockBeats (Oct 29–30) and Get Leveraged (Oct 30); earlier readings via Daily Wrap and Admiral Markets (Oct 28)",
-    "note": "Odds of a quarter-point hike at the Dec 9 meeting jumped to about 83% to 88% right after Wednesday's hawkish hold, then eased as Treasury yields fell: about 80% late Thursday (KuCoin/BlockBeats, 79.6%), about 75% (Get Leveraged) and 72% (Trading Economics) Friday. Sources differ by several points, but a hike is still seen as the most likely outcome. The pre-meeting level was about 78% (Daily Wrap, KuCoin) or 73% (Admiral Markets)."
+    "afterLow": 68,
+    "afterHigh": 76,
+    "afterLabel": "Oct 30–Nov 2, after Fed officials Logan and Musalem called for more hikes",
+    "source": "CME FedWatch via Trading Economics (Oct 30 and Nov 2), 24/7 Wall St (Oct 31) and Ivan Labrie Monday Brief (Oct 30 settle)",
+    "note": "Odds of a quarter-point hike at the Dec 9 meeting were about 85% right after the Oct 28 hold, then eased as Treasury yields fell: about 68% at Friday's settle (Labrie), 72% Friday and about 75% Monday (Trading Economics), and about 76% (24/7 Wall St). Sources differ by several points, but a hike is still seen as the most likely outcome."
   },
   "drivers": [
     {
-      "title": "Bonds rally as yields hit a seven-week low",
-      "effect": "down",
-      "weight": 3,
-      "text": "The 10-year Treasury yield fell from about 5.05% Wednesday to roughly 4.90%–4.98% at Thursday's close, its lowest in about seven weeks. Mortgage rates follow longer-term bond yields closely because investors who buy mortgage bonds compare them with Treasuries. When yields fall, lenders can offer lower rates, which is why the daily 30-year average dropped 0.06% to a one-month low."
-    },
-    {
       "title": "Tech selloff sends money into bonds",
       "effect": "down",
-      "weight": 2,
-      "text": "Following Alphabet's slide earlier in the week, Amazon's earnings disappointed and Intel's shares plunged on a weak forecast, renewing worries that huge AI spending won't pay off soon. The Nasdaq is down roughly 1.5% to 2% this morning. When stocks wobble, investors tend to move money into bonds, which pushes yields and mortgage rates down."
+      "weight": 3,
+      "text": "Shares of Alphabet, Amazon and Intel fell sharply after disappointing results, and the Nasdaq 100 dropped about 3.5% Friday, its worst day since June. Worries about heavy, debt-funded AI spending, including reports that a major AI company's expected credit rating may fall short of investment grade, pushed investors toward the safety of Treasuries. More demand for bonds lowers their yields, and mortgage rates follow, which is why the daily 30-year average ticked down to 7.27%."
     },
     {
-      "title": "Inflation and wage data offer no new surprises",
+      "title": "Oil tumbles on hopes for U.S.-Iran talks",
       "effect": "down",
       "weight": 2,
-      "text": "September PCE inflation matched forecasts at 3.6% for the year, with the core measure (no food or energy) at 3.1%. This morning's Employment Cost Index also came in as expected, up 0.8% for the quarter and 3.4% over the year, and wage growth alone is running at its slowest pace since 2021. Steady numbers, plus slowing pay gains, ease fears that inflation is getting worse, so investors trimmed bets on a December Fed hike to roughly 72% to 80%."
+      "text": "Crude is down about 4% this morning, with Brent near $108 a barrel and U.S. crude just under $100, after reports that President Trump wants to give diplomacy with Iran more time before any new strikes. Cheaper oil means lower gas and shipping costs, which eases inflation worries and tends to pull rates down. No deal has been announced, and Iran says the Strait of Hormuz stays closed until sanctions are lifted, so this can reverse quickly."
     },
     {
-      "title": "Oil climbs again on Strait of Hormuz tanker attacks",
+      "title": "Two Fed officials call for more hikes",
       "effect": "up",
       "weight": 2,
-      "text": "Brent crude is up about 2% to 2.5% this morning to roughly $115 to $118 a barrel after attacks on tankers in the Strait of Hormuz, with signs the U.S. may resume strikes on Iran; Qatari mediators are back in Tehran pushing for a deal. Higher oil feeds into gas and shipping costs, which raises inflation worries and tends to push rates up."
+      "text": "Dallas Fed President Lorie Logan said she sees the need for at least two more quarter-point hikes, and St. Louis Fed President Alberto Musalem said further tightening is needed soon because borrowing conditions are still too easy. When Fed officials lean toward higher short-term rates, investors expect higher rates across the board, which limits how far mortgage rates can fall. Futures still see a December hike as likely, at roughly 68% to 76%."
     },
     {
-      "title": "Strong economy keeps a December hike likely",
+      "title": "Factory survey comes in stronger than expected",
       "effect": "up",
-      "weight": 2,
-      "text": "Third-quarter growth came in at a 3.4% yearly pace, faster than the roughly 3.1% expected, and weekly jobless claims fell to 194,000, near historic lows. Two Fed officials voted for a hike on Wednesday. A sturdy economy with inflation well above the 2% goal keeps a December hike as the most likely outcome, which limits how far mortgage rates can fall."
+      "weight": 1,
+      "text": "The October ISM manufacturing index rose to 55.5 from 54.5, above forecasts in the mid-54s (above 50 means factories are expanding). A stronger economy tends to keep inflation and rates higher. The good news inside the report: the measure of prices factories pay fell to 75.2 from 77.9, a sign cost pressures may be easing a little."
+    },
+    {
+      "title": "Mortgage rates still far above Treasuries",
+      "effect": "down",
+      "weight": 1,
+      "text": "The Optimal Blue conforming index sat 2.17% above the 10-year Treasury yield on Oct 29, compared with a long-run average of about 1.76%. That wide gap means lenders have room to lower rates if bond markets calm down, which is a cushion for borrowers even if Treasury yields stay where they are."
     }
   ],
   "outlook": {
-    "horizonLabel": "Next 30 days (through Nov 29)",
-    "base": 7.29,
-    "baseSource": "Mortgage News Daily, Oct 29 close",
+    "horizonLabel": "Next 30 days (through Dec 2)",
+    "base": 7.27,
+    "baseSource": "Mortgage News Daily, Oct 30 close",
     "flatBand": 0.125,
-    "up": 31,
+    "up": 30,
     "flat": 38,
-    "down": 31,
+    "down": 32,
     "confidence": "Low to moderate",
-    "basis": "It's close to a coin flip, with a slight lean toward rates staying about where they are and no clear tilt up or down. In borrowers' favor: Treasury yields just fell to a seven-week low, tech stocks are shaky, wage growth is slowing, and mortgage rates are unusually far above the 10-year Treasury (about 2.17% vs. a long-run average near 1.76%), leaving room to improve. Working against them: a December Fed hike is still seen as more likely than not, inflation is running well above target, growth is strong, and oil is climbing again on Gulf tensions. After a sharp drop in yields, some bounce-back is common. Big swing events: the November 3 midterm elections, the November 6 jobs report, the November 10 CPI report, and any escalation in the Strait of Hormuz.",
+    "basis": "Still close to a coin flip, with a slight lean toward rates staying about where they are and a very slight tilt lower. In borrowers' favor: Treasury yields just had their best month since 2024, tech stocks are shaky, oil is sliding on diplomacy hopes, and mortgage rates are unusually far above the 10-year Treasury (about 2.17% vs. a long-run average near 1.76%). Working against them: a December Fed hike is still seen as more likely than not, two Fed officials are openly calling for more hikes, the factory survey was strong, and inflation is well above target. Oil can rebound quickly if talks stall. Big swing events: Tuesday's midterm elections, the Nov 6 jobs report, the Nov 10 CPI report, and any news from the Iran talks.",
     "caveat": "This is professional judgment from 30+ years watching these markets, not a guarantee. One oil headline or data surprise can move rates a quarter point in a day."
   },
   "calendar": [
@@ -320,12 +320,25 @@
       "surprise": "inline"
     },
     {
+      "date": "2026-10-30",
+      "label": "Fri, Oct 30",
+      "event": "Fed officials Logan and Musalem speak",
+      "impact": "medium",
+      "why": "Both said more rate hikes are needed, which keeps a December hike as the most likely outcome.",
+      "actual": "Both favor further hikes",
+      "surprise": "hotter",
+      "surpriseLabel": "more hawkish"
+    },
+    {
       "date": "2026-11-02",
       "label": "Mon, Nov 2",
       "event": "October ISM manufacturing survey",
       "impact": "medium",
       "why": "A strong factory reading signals a sturdy economy, which tends to push rates up.",
-      "prior": "54.5"
+      "prior": "54.5",
+      "actual": "55.5 (prices paid 75.2, down from 77.9)",
+      "surprise": "hotter",
+      "surpriseLabel": "stronger than expected"
     },
     {
       "date": "2026-11-03",
@@ -337,9 +350,9 @@
     {
       "date": "2026-11-04",
       "label": "Wed, Nov 4",
-      "event": "October ISM services survey",
+      "event": "October ISM services survey and Treasury quarterly refunding announcement",
       "impact": "medium",
-      "why": "Most Americans work in services, so this is a good read on the economy and on price pressures.",
+      "why": "Services are most of the economy; the refunding says how much long-term debt the government will sell, and more supply can push yields up.",
       "prior": "54.9"
     },
     {
@@ -387,6 +400,14 @@
       "why": "The minutes show how many officials lean toward another hike."
     },
     {
+      "date": "2026-11-25",
+      "label": "Wed, Nov 25",
+      "event": "October PCE inflation, the Fed's preferred measure (date to be confirmed)",
+      "impact": "high",
+      "why": "Hotter inflation would make a December Fed hike more likely and push rates up.",
+      "prior": "3.6% yearly; core 3.1%"
+    },
+    {
       "date": "2026-11-26",
       "label": "Thu, Nov 26",
       "event": "Thanksgiving: U.S. bond market closed; early 2:00 PM ET close Friday, Nov 27 (SIFMA)",
@@ -395,14 +416,14 @@
     {
       "date": "",
       "label": "Ongoing",
-      "event": "Big tech earnings and AI-spending worries (Alphabet, Amazon, Intel), oil prices, and news from the Middle East (tanker attacks in the Strait of Hormuz, possible U.S. strikes on Iran, Qatari mediation)",
+      "event": "U.S.-Iran talks and oil prices (Strait of Hormuz still closed), big tech earnings and AI-spending worries (Apple and Palantir report this week)",
       "impact": "medium"
     }
   ],
   "talkingPoints": {
-    "buyers": "The daily 30-year average is about 7.29%, the lowest this month and down from roughly 7.5% in early October. A December Fed hike is still seen as likely, and the election, jobs and inflation reports in early November could bring bigger swings than usual, so it's worth asking your lender how locking, a float-down option, or waiting would each fit your closing date.",
-    "sellers": "Rates eased a bit this week, which helps affordability at the margin, but buyers are still stretched above 7%. Realistic pricing, or a seller credit buyers can use to lower their rate, can help a home stand out.",
-    "oneLiner": "Mortgage rates slipped to a one-month low near 7.29% as bond yields fell; the election and the Nov 6 jobs report are the next big tests."
+    "buyers": "The daily 30-year average is about 7.27%, near its lowest in six weeks and down from roughly 7.5% in early October. A December Fed hike is still seen as likely, and this week's election and Friday's jobs report could bring bigger swings than usual, so it's worth asking your lender how locking, a float-down option, or waiting would each fit your closing date.",
+    "sellers": "Rates have eased a bit, which helps affordability at the margin, but buyers are still stretched above 7%. Realistic pricing, or a seller credit buyers can use to lower their rate, can help a home stand out.",
+    "oneLiner": "Mortgage rates are holding near six-week lows around 7.27% as bonds rallied and oil fell; the election and Friday's jobs report are the next big tests."
   },
   "scorecard": [
     {
@@ -434,6 +455,16 @@
       "gradeOn": "2026-11-25",
       "actual": null,
       "result": null
+    },
+    {
+      "made": "2026-11-02",
+      "base": 7.27,
+      "up": 30,
+      "flat": 38,
+      "down": 32,
+      "gradeOn": "2026-12-02",
+      "actual": null,
+      "result": null
     }
   ],
   "paymentCompare": [
@@ -449,85 +480,110 @@
     },
     {
       "label": "Today",
-      "value": 7.29,
+      "value": 7.27,
       "source": "Mortgage News Daily"
     }
   ],
   "sources": [
     {
-      "name": "Mortgage News Daily: MND's Daily Mortgage Rate Index (7.29% Oct 29)",
-      "date": "Oct 29, 2026",
+      "name": "Mortgage News Daily: MND's Daily Mortgage Rate Index (7.27% Oct 30)",
+      "date": "Oct 30, 2026",
       "url": "https://www.mortgagenewsdaily.com/mortgage-rates/mnd"
+    },
+    {
+      "name": "Mortgage News Daily: Daily newsletter, Oct 30 (tech turmoil, bond rally)",
+      "date": "Oct 30, 2026",
+      "url": "https://www.mortgagenewsdaily.com/newsletter/n/20261030"
+    },
+    {
+      "name": "Yahoo Finance via BizToc: Mortgage and refinance rates today, Nov 2 (Zillow 7.10%)",
+      "date": "Nov 2, 2026",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-monday-november-2-2026-purchase-rates-mostly-higher-than-refinance-rates-110000382.html"
+    },
+    {
+      "name": "NerdWallet: Mortgage rates today, Nov 2 (Zillow)",
+      "date": "Nov 2, 2026",
+      "url": "https://www.nerdwallet.com/mortgages/news/mortgage-rates-today-monday-november-2-2026"
+    },
+    {
+      "name": "Forbes Advisor / Mortgage Research Center: Mortgage rates today, Nov 2",
+      "date": "Nov 2, 2026",
+      "url": "https://www.forbes.com/advisor/mortgages/mortgage-rates-11-02-26/"
+    },
+    {
+      "name": "MortgageDaily: Weekly recap Oct 26–30 (Optimal Blue, 10-year closes)",
+      "date": "Oct 31, 2026",
+      "url": "https://www.mortgagedaily.com/rates/mortgage-rates-weekly-recap-2026-10-31/"
+    },
+    {
+      "name": "FRED: Optimal Blue 30-year conforming index (OBMMIC30YF)",
+      "date": "Oct 30, 2026",
+      "url": "https://fred.stlouisfed.org/series/OBMMIC30YF"
+    },
+    {
+      "name": "FRED: Optimal Blue 30-year jumbo index (OBMMIJUMBO30YF)",
+      "date": "Oct 29, 2026",
+      "url": "https://fred.stlouisfed.org/series/OBMMIJUMBO30YF"
+    },
+    {
+      "name": "FRED: 10-year Treasury yield (DGS10)",
+      "date": "Oct 29, 2026",
+      "url": "https://fred.stlouisfed.org/series/dgs10"
+    },
+    {
+      "name": "The Market Angle: Oil retreats (Oct 30 Treasury par yields, overnight oil)",
+      "date": "Nov 2, 2026",
+      "url": "https://themarketangle.substack.com/p/oil-retreats-as-ai-funding-and-earnings"
+    },
+    {
+      "name": "Trading Economics: U.S. 10-year yield and FedWatch odds",
+      "date": "Nov 2, 2026",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+    },
+    {
+      "name": "InvestingLive: Morning Kickstart, oil tumbles as Iran talks continue (yields, ISM forecasts)",
+      "date": "Nov 2, 2026",
+      "url": "https://investinglive.com/technical-analysis/morning-kickstart-oil-tumbles-as-iran-talks-continue-usd-mixed-ahead-of-ism/"
+    },
+    {
+      "name": "Yahoo Finance: Stock market today, Nov 2 (futures, oil, 10-year)",
+      "date": "Nov 2, 2026",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-2-dow-sp-500-nasdaq-091835095.html"
+    },
+    {
+      "name": "ChinaTechNews (ZeroHedge wrap): Futures rise as oil slides below $100 on Iran diplomacy report",
+      "date": "Nov 2, 2026",
+      "url": "https://www.chinatechnews.com/2026/11/02/131923-futures-rise-as-oil-slides-below-100-on-trump-iran-diplomacy-report-tech-bounces-ahead-of-midterms"
+    },
+    {
+      "name": "ISM via PR Newswire: Manufacturing PMI at 55.5%, October 2026",
+      "date": "Nov 2, 2026",
+      "url": "https://www.prnewswire.com/news-releases/manufacturing-pmi-at-55-5-october-2026-ism-manufacturing-pmi-report-302925617.html"
+    },
+    {
+      "name": "TheStreet Pro: Stock market today, Nov 2 (Treasury refunding, Fed events)",
+      "date": "Nov 2, 2026",
+      "url": "https://pro.thestreet.com/stock-market-today/2026-11-02"
+    },
+    {
+      "name": "Yahoo Finance: U.S. Treasuries wrap October in biggest rally since 2024",
+      "date": "Oct 30, 2026",
+      "url": "https://finance.yahoo.com/markets/currencies/articles/german-bunds-set-best-month-094113944.html"
+    },
+    {
+      "name": "24/7 Wall St: Two Fed officials call for more rate hikes (Logan, Musalem; FedWatch)",
+      "date": "Oct 31, 2026",
+      "url": "https://247wallst.com/investing/2026/10/31/two-fed-officials-just-called-for-more-rate-hikes-starting-soon/"
+    },
+    {
+      "name": "Ivan Labrie: Monday Brief Nov 2–8 (FedWatch path, payrolls consensus, Oct 30 closes)",
+      "date": "Nov 2, 2026",
+      "url": "https://ivanlabrie.substack.com/p/monday-brief-november-2-to-november"
     },
     {
       "name": "Freddie Mac PMMS via GlobeNewswire: Mortgage Rates Decline Further to 7.24%",
       "date": "Oct 29, 2026",
       "url": "https://www.globenewswire.com/news-release/2026/10/29/3391637/0/en/mortgage-rates-decline-further-to-7-24.html"
-    },
-    {
-      "name": "Yahoo Finance: Mortgage and refinance rates today, Oct 30 (Zillow)",
-      "date": "Oct 30, 2026",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-friday-october-30-2026-rates-move-lower-after-fed-holds-rates-steady-100000903.html"
-    },
-    {
-      "name": "Fortune / Mortgage Research Center: Mortgage rates today, Oct 30",
-      "date": "Oct 30, 2026",
-      "url": "https://fortune.com/article/current-mortgage-rates-10-30-2026/"
-    },
-    {
-      "name": "FRED: Optimal Blue 30-year conforming index (OBMMIC30YF)",
-      "date": "Oct 28, 2026",
-      "url": "https://fred.stlouisfed.org/series/OBMMIC30YF"
-    },
-    {
-      "name": "FRED: Optimal Blue 30-year jumbo index (OBMMIJUMBO30YF)",
-      "date": "Oct 28, 2026",
-      "url": "https://fred.stlouisfed.org/series/OBMMIJUMBO30YF"
-    },
-    {
-      "name": "24/7 Wall St: 10-year Treasury yield back above 5% (Oct 28 par-curve close)",
-      "date": "Oct 29, 2026",
-      "url": "https://247wallst.com/investing/2026/10/29/the-10-year-treasury-yield-just-jumped-back-above-5/"
-    },
-    {
-      "name": "Forbes Advisor: Treasury rates today (Oct 29 10-year)",
-      "date": "Oct 29, 2026",
-      "url": "https://www.forbes.com/advisor/investing/treasury-rates/"
-    },
-    {
-      "name": "Trading Economics: U.S. 10-year yield and FedWatch odds",
-      "date": "Oct 30, 2026",
-      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
-    },
-    {
-      "name": "24/7 Wall St: Treasury yields slide after economic data (Oct 30 morning)",
-      "date": "Oct 30, 2026",
-      "url": "https://247wallst.com/cards/xpost-01m66eesm18xtn5amk8gaja3r6"
-    },
-    {
-      "name": "Get Leveraged: Financial market review (Oct 29 close, data, FedWatch)",
-      "date": "Oct 30, 2026",
-      "url": "https://getleveraged.com/reviews/30-10-26/"
-    },
-    {
-      "name": "KuCoin News: December hike probability at 79.6% (CME FedWatch)",
-      "date": "Oct 29–30, 2026",
-      "url": "https://www.kucoin.com/news/flash/december-25-basis-point-rate-hike-probability-at-79-6"
-    },
-    {
-      "name": "Reuters via Investing.com: US labor costs rise moderately in third quarter",
-      "date": "Oct 30, 2026",
-      "url": "https://www.investing.com/news/economic-indicators/us-labor-costs-rise-moderately-in-third-quarter-4987548"
-    },
-    {
-      "name": "TheStreet: Stock market today, Oct 30 (Amazon, Intel, oil)",
-      "date": "Oct 30, 2026",
-      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-30-2026"
-    },
-    {
-      "name": "Yahoo Finance: Stock market today, Oct 30 (tech rout, oil, yields)",
-      "date": "Oct 30, 2026",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-083236552.html"
     },
     {
       "name": "BEA: Personal Income and Outlays, September 2026",
@@ -550,16 +606,6 @@
       "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-02112026-08112026/"
     },
     {
-      "name": "NerdWallet: Mortgage rates today, Oct 29 (Zillow)",
-      "date": "Oct 29, 2026",
-      "url": "https://www.nerdwallet.com/mortgages/news/mortgage-rates-today-thursday-october-29-2026"
-    },
-    {
-      "name": "MortgageDaily: Optimal Blue rates and 10-year close (Oct 27 data)",
-      "date": "Oct 28, 2026",
-      "url": "https://www.mortgagedaily.com/rates/mortgage-rates-today-2026-10-28/"
-    },
-    {
       "name": "HousingWire: MBA applications rebound 3.4% as rates decrease to 7.37% (week ending Oct 23)",
       "date": "Oct 28, 2026",
       "url": "https://www.housingwire.com/articles/mba-applications-rebound-3-4/"
@@ -570,54 +616,9 @@
       "url": "https://finance.yahoo.com/economy/policy/live/fed-meeting-live-updates-interest-rates-held-steady-in-split-vote-warsh-says-politics-played-no-role-ahead-of-midterm-elections-191946928.html"
     },
     {
-      "name": "Admiral Markets: Fed rate decision Oct 28, hawkish hold (yields, CME FedWatch)",
-      "date": "Oct 28, 2026",
-      "url": "https://admiralmarkets.com/analytics/traders-blog/fed-rate-decision-october-28-2026-hawkish-hold"
-    },
-    {
-      "name": "Daily Wrap (Substack): Oct 28 closing levels, FedWatch, earnings",
-      "date": "Oct 28, 2026",
-      "url": "https://danielsan2401.substack.com/p/daily-wrap-29th-october-eighty-six"
-    },
-    {
-      "name": "Yahoo Finance: Stock market today, Oct 29 (yields, consensus forecasts)",
-      "date": "Oct 29, 2026",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-29-dow-sp-500-nasdaq-alphabet-microsoft-earnings-130305714.html"
-    },
-    {
-      "name": "Zetik: PCE inflation hits 3.6% in September",
-      "date": "Oct 29, 2026",
-      "url": "https://www.zetik.com/news/article/story_id-p008-227819"
-    },
-    {
-      "name": "24/7 Wall St: Q3 GDP 3.4% and core PCE details",
-      "date": "Oct 29, 2026",
-      "url": "https://247wallst.com/cards/xpost-01m63w23m4rqtj5052ppvxx3rn"
-    },
-    {
-      "name": "IndexBox: U.S. GDP accelerates to 3.4% in Q3 (BEA advance estimate)",
-      "date": "Oct 29, 2026",
-      "url": "https://www.indexbox.io/blog/us-gdp-accelerates-to-34-in-third-quarter-of-2026/"
-    },
-    {
-      "name": "Bloomingbit: September PCE 3.6%, matching estimates",
-      "date": "Oct 29, 2026",
-      "url": "https://en.bloomingbit.io/feed/news/123196"
-    },
-    {
       "name": "Federal Reserve H.15 Selected Interest Rates (10-year, fed funds, prime)",
       "date": "Oct 27, 2026",
       "url": "https://federalreserve.gov/releases/h15/"
-    },
-    {
-      "name": "The Conference Board via PR Newswire: Consumer confidence increased in October",
-      "date": "Oct 27, 2026",
-      "url": "https://www.prnewswire.com/news-releases/us-consumer-confidence-increased-in-october-302920731.html"
-    },
-    {
-      "name": "InvestingLive: September new home sales 676K vs 650K estimate",
-      "date": "Oct 27, 2026",
-      "url": "https://investinglive.com/news/us-new-home-sales-for-september-0-676m-annualized-vs-0-650m-estimate/"
     },
     {
       "name": "Bankrate: WSJ Prime Rate",
@@ -650,7 +651,7 @@
       "url": "https://www.bridgepointrea.com/blog/freddie-mac-mortgage-rates-7-40-october-2026"
     }
   ],
-  "status": "published",
+  "status": "pending",
   "keyRates": {
     "title": "Key rates: Fed funds and prime",
     "fedFunds": {
@@ -669,7 +670,7 @@
     },
     "nextMeeting": "2026-12-09",
     "nextMeetingLabel": "Wed, Dec 9",
-    "source": "Federal Reserve H.15 (Oct 27, 2026 release, Oct 26 data); Fed held rates Oct 28 (Reuters via Investing.com, Yahoo Finance), so prime is unchanged; WSJ Prime Rate via Bankrate (page updated Oct 20, 2026)",
+    "source": "Federal Reserve H.15 (Oct 27, 2026 release, Oct 26 data); Fed held rates Oct 28 and no change since (Trading Economics, Nov 2), so prime is unchanged at 7.00%; WSJ Prime Rate via Bankrate (page updated Oct 20, 2026)",
     "history": [
       {
         "date": "2023-10-14",
@@ -717,13 +718,13 @@
     {
       "name": "Today's 30-year rate is in a realistic range (4%-10%)",
       "ok": true,
-      "detail": "7.29%",
+      "detail": "7.27%",
       "source": "morning"
     },
     {
       "name": "One-day move is normal (under 0.35%), or confirmed by two sources",
       "ok": true,
-      "detail": "Move: 0.06%",
+      "detail": "Move: 0.02%",
       "source": "morning"
     },
     {
@@ -735,13 +736,13 @@
     {
       "name": "The update is dated within the last 4 days",
       "ok": true,
-      "detail": "2026-10-30",
+      "detail": "2026-11-02",
       "source": "morning"
     },
     {
       "name": "At least two sources, each with a date and link",
       "ok": true,
-      "detail": "39 sources",
+      "detail": "33 sources",
       "source": "morning"
     },
     {
@@ -768,7 +769,5 @@
       "detail": "",
       "source": "morning"
     }
-  ],
-  "publishedAt": "2026-10-30T15:19:12.910Z",
-  "publishedBy": "Stuart (control panel)"
+  ]
 }
