@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "normalGap": {
   "avg": 1.76,
   "low": 1.44,
@@ -657,8 +657,7 @@
   {
    "date": "2026-10",
    "rate": 7.33,
-   "ten": 5.13,
-   "partial": true
+   "ten": 5.13
   }
  ],
  "productsMonthly": [
@@ -1250,7 +1249,12 @@
   {
    "date": "2026-10",
    "conf": 7.313,
-   "jumbo": 7.423,
+   "jumbo": 7.423
+  },
+  {
+   "date": "2026-11",
+   "conf": 7.13,
+   "jumbo": 7.048,
    "partial": true
   }
  ],
@@ -1763,7 +1767,13 @@
    "date": "2026-10-30",
    "ten": 4.94,
    "conf": 7.147,
-   "jumbo": null
+   "jumbo": 7.355
+  },
+  {
+   "date": "2026-11-02",
+   "ten": 4.91,
+   "conf": 7.13,
+   "jumbo": 7.048
   }
  ],
  "sources": [
