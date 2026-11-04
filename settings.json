@@ -1,7 +1,7 @@
 {
   "showBuyingPower": true,
   "showSurveys": true,
-  "showScorecard": true,
+  "showScorecard": false,
   "showSignup": true,
   "publishMode": "review",
   "paused": false,
