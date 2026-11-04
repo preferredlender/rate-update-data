@@ -2,6 +2,12 @@
   "keepDays": 30,
   "reports": [
     {
+      "date": "2026-11-04",
+      "headline": "Democrats Sweep Congress, and Bonds Rally",
+      "direction": "flat",
+      "rate": 7.3
+    },
+    {
       "date": "2026-11-02",
       "headline": "Rates Hold Near October Lows as Oil Prices Tumble",
       "direction": "flat",
