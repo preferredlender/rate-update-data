@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "normalGap": {
   "avg": 1.76,
   "low": 1.44,
@@ -1253,7 +1253,7 @@
   },
   {
    "date": "2026-11",
-   "conf": 7.13,
+   "conf": 7.152,
    "jumbo": 7.048,
    "partial": true
   }
@@ -1774,6 +1774,12 @@
    "ten": 4.91,
    "conf": 7.13,
    "jumbo": 7.048
+  },
+  {
+   "date": "2026-11-03",
+   "ten": 4.95,
+   "conf": 7.174,
+   "jumbo": null
   }
  ],
  "sources": [
