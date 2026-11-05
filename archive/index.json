@@ -2,6 +2,12 @@
   "keepDays": 30,
   "reports": [
     {
+      "date": "2026-11-05",
+      "headline": "Election Rally Pulls Mortgage Rates Lower",
+      "direction": "down",
+      "rate": 7.22
+    },
+    {
       "date": "2026-11-04",
       "headline": "Democrats Sweep Congress, and Bonds Rally",
       "direction": "flat",
