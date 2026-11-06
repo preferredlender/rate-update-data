@@ -3,7 +3,7 @@
   "showSurveys": true,
   "showScorecard": false,
   "showSignup": true,
-  "publishMode": "review",
+  "publishMode": "auto",
   "paused": false,
   "showKeyRates": true,
   "showGap": true,
