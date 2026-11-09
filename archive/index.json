@@ -2,6 +2,12 @@
   "keepDays": 30,
   "reports": [
     {
+      "date": "2026-11-09",
+      "headline": "Oil Slide Offsets Jobs Jolt; Rates Hold at Lows",
+      "direction": "flat",
+      "rate": 7.17
+    },
+    {
       "date": "2026-11-05",
       "headline": "Election Rally Pulls Mortgage Rates Lower",
       "direction": "down",
