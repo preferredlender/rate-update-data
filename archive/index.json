@@ -2,6 +2,12 @@
   "keepDays": 30,
   "reports": [
     {
+      "date": "2026-11-10",
+      "headline": "Hotter Inflation Puts Rates' Recent Lows at Risk",
+      "direction": "flat",
+      "rate": 7.18
+    },
+    {
       "date": "2026-11-09",
       "headline": "Oil Slide Offsets Jobs Jolt; Rates Hold at Lows",
       "direction": "flat",
