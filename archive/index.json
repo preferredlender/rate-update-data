@@ -2,6 +2,12 @@
   "keepDays": 30,
   "reports": [
     {
+      "date": "2026-11-11",
+      "headline": "Hot Inflation and a Weak Bond Sale Lift Rates",
+      "direction": "up",
+      "rate": 7.3
+    },
+    {
       "date": "2026-11-10",
       "headline": "Hotter Inflation Puts Rates' Recent Lows at Risk",
       "direction": "flat",
