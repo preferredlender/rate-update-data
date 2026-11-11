@@ -7,7 +7,8 @@ This run is unattended. Do not ask questions. Follow these steps exactly.
 ## 1. Set up
 1. Attach the data repository with push access (`add_repo` owner `preferredlender`, repo `rate-update-data`, access `push`), then clone it shallow.
 2. Read `settings.json`, `rate-data.json` (the last published update), `draft.json` and `archive/index.json`.
-3. If today (America/Los_Angeles) is a Saturday, Sunday, or a day the U.S. bond market is fully closed (check SIFMA's holiday schedule), stop: write nothing and end with "No update today: bond market closed."
+3. If today (America/Los_Angeles) is a Saturday or Sunday, stop: write nothing and end with "No update today: weekend."
+4. Run every weekday, including holidays. If the U.S. bond market is fully closed today (check SIFMA's holiday schedule), still build and publish the update: say near the top of the story, in plain words, that bond markets are closed today for the holiday (name it) and that rates are based on the most recent trading day; use that day's data and date the sources accordingly. Don't invent movement on a closed day.
 
 ## 2. Research (current, dated, multiple sources)
 Use WebSearch (mode "extended" for recent data) and WebFetch. Never rely on memory for any number.
