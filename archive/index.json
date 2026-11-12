@@ -2,6 +2,12 @@
   "keepDays": 30,
   "reports": [
     {
+      "date": "2026-11-12",
+      "headline": "Bond Selloff Resumes as Fed Hike Bets Firm Up",
+      "direction": "up",
+      "rate": 7.3
+    },
+    {
       "date": "2026-11-11",
       "headline": "Hot Inflation and a Weak Bond Sale Lift Rates",
       "direction": "up",
