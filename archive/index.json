@@ -2,6 +2,12 @@
   "keepDays": 30,
   "reports": [
     {
+      "date": "2026-11-13",
+      "headline": "Bond Selloff Deepens as Fed Hike Nears; PPI Tame",
+      "direction": "up",
+      "rate": 7.42
+    },
+    {
       "date": "2026-11-12",
       "headline": "Bond Selloff Resumes as Fed Hike Bets Firm Up",
       "direction": "up",
