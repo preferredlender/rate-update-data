@@ -1,0 +1,14 @@
+{
+  "keepWeeks": 13,
+  "weeks": [
+    {
+      "weekEnd": "2026-11-13",
+      "weekStart": "2026-11-09",
+      "weekLabel": "Week of Nov 9\u201313, 2026",
+      "headline": "Hot Inflation and Weak Bond Sales Push Rates to 7.42%",
+      "direction": "up",
+      "start": 7.17,
+      "end": 7.42
+    }
+  ]
+}
