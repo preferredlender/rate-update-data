@@ -2,6 +2,12 @@
   "keepDays": 30,
   "reports": [
     {
+      "date": "2026-11-16",
+      "headline": "Lenders Catch Up to Bond Selloff; Rates Near 7.5%",
+      "direction": "up",
+      "rate": 7.5
+    },
+    {
       "date": "2026-11-13",
       "headline": "Bond Selloff Deepens as Fed Hike Nears; PPI Tame",
       "direction": "up",
@@ -108,24 +114,6 @@
       "headline": "Rates Edge Up After Last Week's Big Bond Rally",
       "direction": "up",
       "rate": 7.37
-    },
-    {
-      "date": "2026-10-16",
-      "headline": "Safe-Haven Bond Buying Pulls Rates Lower",
-      "direction": "down",
-      "rate": 7.33
-    },
-    {
-      "date": "2026-10-15",
-      "headline": "Investors Flee Stocks for Bonds, Easing Rates",
-      "direction": "flat",
-      "rate": 7.45
-    },
-    {
-      "date": "2026-10-14",
-      "headline": "Hot Inflation Report Pushes Rates Back Up",
-      "direction": "up",
-      "rate": 7.56
     }
   ]
 }
