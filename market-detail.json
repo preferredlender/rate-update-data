@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "normalGap": {
   "avg": 1.76,
   "low": 1.44,
@@ -662,7 +662,7 @@
   {
    "date": "2026-11",
    "rate": 7.14,
-   "ten": 4.93,
+   "ten": 4.95,
    "partial": true
   }
  ],
@@ -1260,7 +1260,7 @@
   {
    "date": "2026-11",
    "conf": 7.146,
-   "jumbo": 7.225,
+   "jumbo": 7.243,
    "partial": true
   }
  ],
@@ -1825,9 +1825,9 @@
   },
   {
    "date": "2026-11-13",
-   "ten": null,
+   "ten": 5.15,
    "conf": 7.255,
-   "jumbo": null
+   "jumbo": 7.383
   }
  ],
  "sources": [

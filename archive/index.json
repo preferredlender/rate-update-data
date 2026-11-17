@@ -2,6 +2,12 @@
   "keepDays": 30,
   "reports": [
     {
+      "date": "2026-11-17",
+      "headline": "Fed Hike Talk Keeps Mortgage Rates Pinned Near 7.5%",
+      "direction": "flat",
+      "rate": 7.51
+    },
+    {
       "date": "2026-11-16",
       "headline": "Lenders Catch Up to Bond Selloff; Rates Near 7.5%",
       "direction": "up",
