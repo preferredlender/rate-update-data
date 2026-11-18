@@ -43,12 +43,28 @@ def checks(d, today=None):
     add("Headline rate agrees with at least one other survey (within 0.25%)", agree >= 2 or not items, f"{agree} surveys within range")
     tp = d.get("talkingPoints") or {}
     text = " ".join(filter(None, [d.get("headline"), d.get("takeaway"), d.get("tileReason"), o.get("basis"), o.get("caveat"),
-                                  tp.get("buyers"), tp.get("sellers"), tp.get("oneLiner")] + [x.get("text", "") for x in d.get("drivers") or []]))
+                                  tp.get("buyers"), tp.get("sellers"), tp.get("oneLiner"), (d.get("fedOdds") or {}).get("watch"), (d.get("mbs") or {}).get("note")] + [x.get("text", "") for x in d.get("drivers") or []]))
     hits = [m.group(0) for rx in BANNED for m in [re.search(rx, text, re.I)] if m]
     add("No guarantees or lock/float advice in the wording", not hits, ("Found: " + ", ".join(hits)) if hits else "")
     drv = d.get("drivers") or []
     add("Every driver has a title and explanation", drv and all(x.get("title") and x.get("text") for x in drv))
     add("Disclaimer pieces present (outlook caveat, sources dated)", bool(o.get("caveat")))
+    f = d.get("fedOdds") or {}
+    outs = f.get("outcomes")
+    if outs:
+        try:
+            tot_o = sum(float(x.get("pct") or 0) for x in outs)
+        except Exception:
+            tot_o = -1
+        add("Fed meeting outcomes add up to 100% (within 1 for rounding)", abs(tot_o - 100) <= 1, f"{tot_o:g}")
+    add("Fed odds show when they were read", bool(f.get("afterLabel") or f.get("outcomesAsOf")))
+    m = d.get("mbs")
+    if m:
+        try:
+            ok_m = abs(float(m.get("change"))) < 3 and bool(m.get("asOf"))
+        except Exception:
+            ok_m = False
+        add("MBS price change is realistic (under 3 points) and dated", ok_m, str(m.get("change")))
     return out
 
 if __name__ == "__main__":
