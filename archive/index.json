@@ -2,6 +2,12 @@
   "keepDays": 30,
   "reports": [
     {
+      "date": "2026-11-18",
+      "headline": "Stock Slide Nudges Rates Lower as Fed Hike Talk Grows",
+      "direction": "flat",
+      "rate": 7.48
+    },
+    {
       "date": "2026-11-17",
       "headline": "Fed Hike Talk Keeps Mortgage Rates Pinned Near 7.5%",
       "direction": "flat",
