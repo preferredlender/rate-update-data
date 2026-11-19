@@ -2,6 +2,12 @@
   "keepDays": 30,
   "reports": [
     {
+      "date": "2026-11-19",
+      "headline": "Rates Edge Lower as Oil Slides; Fed Hike Still Set",
+      "direction": "flat",
+      "rate": 7.46
+    },
+    {
       "date": "2026-11-18",
       "headline": "Stock Slide Nudges Rates Lower as Fed Hike Talk Grows",
       "direction": "flat",
@@ -120,12 +126,6 @@
       "headline": "Tech Rebound and Pricey Oil Nudge Rates Higher",
       "direction": "up",
       "rate": 7.43
-    },
-    {
-      "date": "2026-10-19",
-      "headline": "Rates Edge Up After Last Week's Big Bond Rally",
-      "direction": "up",
-      "rate": 7.37
     }
   ]
 }
