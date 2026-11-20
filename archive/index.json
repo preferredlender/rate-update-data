@@ -2,6 +2,12 @@
   "keepDays": 30,
   "reports": [
     {
+      "date": "2026-11-20",
+      "headline": "Rates Inch Lower as Stock Selloff Pulls Yields Down",
+      "direction": "flat",
+      "rate": 7.45
+    },
+    {
       "date": "2026-11-19",
       "headline": "Rates Edge Lower as Oil Slides; Fed Hike Still Set",
       "direction": "flat",
@@ -120,12 +126,6 @@
       "headline": "Weak Housing Data Keeps Rates Steady, a Touch Lower",
       "direction": "flat",
       "rate": 7.4
-    },
-    {
-      "date": "2026-10-20",
-      "headline": "Tech Rebound and Pricey Oil Nudge Rates Higher",
-      "direction": "up",
-      "rate": 7.43
     }
   ]
 }
