@@ -2,6 +2,15 @@
   "keepWeeks": 13,
   "weeks": [
     {
+      "weekEnd": "2026-11-20",
+      "weekStart": "2026-11-16",
+      "weekLabel": "Week of Nov 16\u201320, 2026",
+      "headline": "Stock Rout Sends Mortgage Rates to Weekly Drop as Bonds Rally",
+      "direction": "down",
+      "start": 7.5,
+      "end": 7.33
+    },
+    {
       "weekEnd": "2026-11-13",
       "weekStart": "2026-11-09",
       "weekLabel": "Week of Nov 9\u201313, 2026",
