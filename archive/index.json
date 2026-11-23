@@ -2,6 +2,12 @@
   "keepDays": 30,
   "reports": [
     {
+      "date": "2026-11-23",
+      "headline": "Rates Fall to Two-Week Low as Stocks Tumble",
+      "direction": "down",
+      "rate": 7.33
+    },
+    {
       "date": "2026-11-20",
       "headline": "Rates Inch Lower as Stock Selloff Pulls Yields Down",
       "direction": "flat",
@@ -108,24 +114,6 @@
       "headline": "Rates Hold Near 1-Month Lows as Oil Eases Into Fed Week",
       "direction": "flat",
       "rate": 7.33
-    },
-    {
-      "date": "2026-10-23",
-      "headline": "Tech Selloff Sparks a Bond Rally, Pulling Rates Lower",
-      "direction": "down",
-      "rate": 7.3
-    },
-    {
-      "date": "2026-10-22",
-      "headline": "Rates Hold Steady as Stock Jitters Lift Bonds",
-      "direction": "flat",
-      "rate": 7.4
-    },
-    {
-      "date": "2026-10-21",
-      "headline": "Weak Housing Data Keeps Rates Steady, a Touch Lower",
-      "direction": "flat",
-      "rate": 7.4
     }
   ]
 }

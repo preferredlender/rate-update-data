@@ -1,0 +1,821 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-11-23T07:30:00-08:00",
+  "updatedLabel": "Monday, November 23, 2026 · 7:30 AM PT",
+  "headline": "Rates Fall to Two-Week Low as Stocks Tumble",
+  "tileReason": "The daily 30-year average fell to 7.33% Friday, its lowest since Nov 10, as a steep stock selloff sent investors into bonds; yields are edging back up this morning as stocks rebound.",
+  "direction": "down",
+  "takeaway": "Rates had their best day in weeks on Friday. Mortgage News Daily's 30-year average fell to 7.33% from 7.45% Thursday, a drop of 0.12% and the lowest level since Nov 10, and several lenders cut rates in the middle of the day. Other surveys taken Friday point the same way: Zillow showed 7.18% and the Mortgage Research Center about 7.20%.\n\nA stock market rout did the work. The S&P 500 fell 3.7% Friday and about 8.6% for the week, as worries about artificial intelligence spending hammered big tech stocks. Investors fleeing stocks bought Treasury bonds for safety, and the 10-year Treasury yield, which mortgage rates tend to follow, closed Friday near 4.92%, down from 5.04% Thursday and about 0.23% lower for the week.\n\nThis time lenders passed more of it along. Last week bonds improved after most lenders had already set their rates, so the daily average moved only a hair. Friday's bond rally came early and kept going, which gave lenders room to lower rates during the day.\n\nSome of that is reversing this morning. Stock futures are up about 2.5% after the selloff paused overnight, and the 10-year yield has climbed back to roughly 4.96%, up about 0.04% (sources range from 4.93% to 4.96%). If that holds, today's rates could give back a little of Friday's drop. New York Fed President John Williams speaks at 1 PM PT, and Treasury Secretary Bessent warned over the weekend against raising rates too far while markets are shaky.\n\nA December Fed hike is still the expectation, but the bigger-hike talk has faded. Futures markets, where traders bet on the Fed's next move, put the odds of a quarter-point increase in the Fed's short-term rate on Dec 9 somewhere between about 91% and 96% over the weekend and this morning, depending on the source. The rest is now on no change at all, rather than on the bigger half-point hike Governor Waller floated last week. These are market expectations, not a Fed forecast.\n\nLenders still have a cushion. The Optimal Blue conforming index, which tracks rates on loans borrowers actually locked, sat about 2.19% above the 10-year Treasury on Nov 17, the latest day recorded, compared with a long-run average of about 1.76%. That extra room means lenders don't have to pass along every bit of a bond selloff, and it leaves room for further improvement if bonds hold their gains.\n\nThis is a short week with a big test. Wednesday morning brings the Fed's preferred inflation measure (PCE, a broad gauge of consumer prices), expected to show prices up 3.8% from a year earlier, plus a second look at third-quarter growth. Bond markets close Thursday for Thanksgiving and close early Friday. After that: the Dec 4 jobs report, the Dec 9 Fed decision and November consumer prices on Dec 10.",
+  "rates": {
+    "daily": {
+      "label": "30-yr fixed, daily index",
+      "value": 7.33,
+      "prior": 7.45,
+      "priorLabel": "Nov 19",
+      "source": "Mortgage News Daily",
+      "asOf": "2026-11-20",
+      "note": "Latest close (Fri, Nov 20): 7.33%, down 0.12% from Thursday and the lowest since Nov 10. Today's index posts this afternoon; the 10-year yield is about 0.04% higher this morning."
+    },
+    "weekly": {
+      "label": "30-yr fixed, Freddie Mac weekly",
+      "value": 7.28,
+      "prior": 7.11,
+      "priorLabel": "Nov 12",
+      "source": "Freddie Mac PMMS",
+      "asOf": "2026-11-19",
+      "note": "Released Thursday, Nov 19: up 0.17%, ending a four-week run of declines as the survey caught up with this month's jump in rates. The 15-year average rose to 6.66% from 6.45%. A year ago the 30-year was 6.26%. Next reading expected Wednesday, Nov 25, because of Thanksgiving (date to be confirmed)."
+    },
+    "tenYear": {
+      "label": "10-yr Treasury yield",
+      "value": 4.96,
+      "prior": 4.92,
+      "priorLabel": "Nov 20",
+      "source": "CNBC via Quackonomist and Beinsure/Reuters (Nov 23 morning); U.S. Treasury par yields via Quackonomist and Avalon Capital Research (Nov 20 close); Federal Reserve H.15 (through Nov 19)",
+      "asOf": "2026-11-23",
+      "note": "Intraday this morning: about 4.96%, up about 0.04% (CNBC, 5:15 AM ET; Beinsure 4.96%; The Blye Sheet shows about 4.93%). Friday's close: 4.92% (Treasury), down about 0.12% from Thursday's 5.04% and 0.23% for the week. Mortgage News Daily lists Friday at 4.94%."
+    },
+    "mba": {
+      "label": "MBA contract rate",
+      "value": 7.35,
+      "prior": 7.21,
+      "priorLabel": "wk of Nov 6",
+      "source": "Mortgage Bankers Association (via Newsquawk and CNBC, Nov 18)",
+      "asOf": "2026-11-13"
+    }
+  },
+  "trend": {
+    "title": "30-year fixed, Freddie Mac weekly average",
+    "source": "Freddie Mac PMMS; Sep 3–Sep 10 values from a single secondary source (BridgePoint REA)",
+    "points": [
+      {
+        "date": "2026-09-03",
+        "value": 6.71
+      },
+      {
+        "date": "2026-09-10",
+        "value": 6.76
+      },
+      {
+        "date": "2026-09-17",
+        "value": 6.95
+      },
+      {
+        "date": "2026-09-24",
+        "value": 7.03
+      },
+      {
+        "date": "2026-10-01",
+        "value": 7.28
+      },
+      {
+        "date": "2026-10-08",
+        "value": 7.4
+      },
+      {
+        "date": "2026-10-15",
+        "value": 7.4
+      },
+      {
+        "date": "2026-10-22",
+        "value": 7.32
+      },
+      {
+        "date": "2026-10-29",
+        "value": 7.24
+      },
+      {
+        "date": "2026-11-05",
+        "value": 7.18
+      },
+      {
+        "date": "2026-11-12",
+        "value": 7.11
+      },
+      {
+        "date": "2026-11-19",
+        "value": 7.28
+      }
+    ],
+    "events": [
+      {
+        "date": "2026-09-17",
+        "label": "Fed hikes (Sep 16)"
+      },
+      {
+        "date": "2026-10-29",
+        "label": "Fed holds (Oct 28)"
+      }
+    ]
+  },
+  "tenYearDaily": {
+    "title": "10-year Treasury yield, daily close",
+    "source": "Federal Reserve H.15 (Nov 13-19); Nov 20 close from U.S. Treasury par yields via Quackonomist and Avalon Capital Research; Nov 23 intraday via CNBC (Quackonomist) and Beinsure",
+    "points": [
+      {
+        "date": "2026-11-13",
+        "value": 5.15
+      },
+      {
+        "date": "2026-11-16",
+        "value": 5.12
+      },
+      {
+        "date": "2026-11-17",
+        "value": 5.1
+      },
+      {
+        "date": "2026-11-18",
+        "value": 5.07
+      },
+      {
+        "date": "2026-11-19",
+        "value": 5.04
+      },
+      {
+        "date": "2026-11-20",
+        "value": 4.92
+      },
+      {
+        "date": "2026-11-23",
+        "value": 4.96,
+        "intraday": true
+      }
+    ]
+  },
+  "surveys": {
+    "title": "Today's 30-year rate depends on who you ask",
+    "note": "Each survey measures something different (lender quotes, locked loans, or applications), so they never match exactly.",
+    "items": [
+      {
+        "source": "Zillow",
+        "value": 7.18,
+        "asOf": "Nov 20"
+      },
+      {
+        "source": "Mortgage Research Ctr",
+        "value": 7.2,
+        "asOf": "Nov 20"
+      },
+      {
+        "source": "Freddie Mac",
+        "value": 7.28,
+        "asOf": "Nov 19"
+      },
+      {
+        "source": "Optimal Blue",
+        "value": 7.29,
+        "asOf": "Nov 19"
+      },
+      {
+        "source": "Mortgage News Daily",
+        "value": 7.33,
+        "asOf": "Nov 20"
+      },
+      {
+        "source": "MBA",
+        "value": 7.35,
+        "asOf": "wk of Nov 13"
+      }
+    ]
+  },
+  "cpi": {
+    "title": "October inflation vs. forecast (monthly change)",
+    "items": [
+      {
+        "label": "Headline CPI",
+        "forecast": 0.3,
+        "actual": 0.4
+      },
+      {
+        "label": "Core CPI",
+        "forecast": 0.2,
+        "actual": 0.3
+      }
+    ],
+    "source": "BLS CPI release, Nov 10; forecasts via Yahoo Finance and CoinDesk, Nov 10. No yearly rate this month because October 2025 data were never collected."
+  },
+  "fedOdds": {
+    "title": "Odds of a Fed hike on Dec 9",
+    "before": 90,
+    "beforeLabel": "Thu evening, Nov 19",
+    "afterLow": 91,
+    "afterHigh": 96,
+    "afterLabel": "Sat, Nov 22 to Mon morning, Nov 23",
+    "source": "CME FedWatch via CNBC (Mon, Nov 23, 5:15 AM ET: about 96% quarter-point, up from about 92% Friday; cited by Quackonomist); CME FedWatch via BlockBeats/KuCoin (about Nov 22 evening ET: 93.2% quarter-point, 6.8% no change, 0% half-point); CME FedWatch via Avalon Capital Research (Nov 22: 91.4% quarter-point, 0% half-point vs. 11.5% on Nov 13)",
+    "note": "These are the odds of a quarter-point hike. Last week the rest was on a bigger half-point hike; after Friday's stock rout the half-point odds fell to about zero and the remainder is now on no change. Readings differ by source and time, from about 91% to 96%.",
+    "outcomes": [
+      {
+        "label": "Hike 0.25% to 4.00%-4.25%",
+        "pct": 96
+      },
+      {
+        "label": "Hold at 3.75%-4.00%",
+        "pct": 4
+      }
+    ],
+    "outcomesAsOf": "Mon, Nov 23, 2:15 AM PT (CNBC; the 4% on hold is the remainder, with half-point odds near zero per other readings)",
+    "weekAgo": 94,
+    "weekAgoLabel": "Mon morning, Nov 16 (TipRanks; other readings 91%, with the rest on a half-point hike)",
+    "projection": {
+      "text": "about 4.1% by end of 2026",
+      "asOf": "Sep 16 projections"
+    },
+    "watch": "Williams' remarks this afternoon, Wednesday's PCE inflation report and the Dec 4 jobs report could shift the odds."
+  },
+  "drivers": [
+    {
+      "title": "Stock rout sends money into bonds",
+      "effect": "down",
+      "weight": 3,
+      "text": "The S&P 500 fell 3.7% Friday and about 8.6% for the week on worries about AI spending. Investors moving money from stocks into Treasury bonds pushed bond prices up and yields down, and the 10-year yield closed near 4.92%, its lowest in weeks, helping mortgage rates drop 0.12%."
+    },
+    {
+      "title": "Stocks bounce back this morning",
+      "effect": "up",
+      "weight": 2,
+      "text": "Stock futures are up about 2.5% this morning as the selloff paused, and some of the money that ran to bonds is heading back out. That pushed the 10-year yield back up to about 4.96%, which could take back part of Friday's rate drop."
+    },
+    {
+      "title": "Fed still expected to hike in December",
+      "effect": "up",
+      "weight": 3,
+      "text": "Markets still see a quarter-point Fed hike on Dec 9 as very likely, and Fed minutes showed almost all officials expect more increases. When investors expect the Fed to keep raising its short-term rate, longer-term yields and mortgage rates have a hard time falling far. The odds of a bigger half-point hike have faded, which helps a little."
+    },
+    {
+      "title": "Inflation still running hot",
+      "effect": "up",
+      "weight": 2,
+      "text": "October consumer prices beat forecasts for the third month in a row, and Wednesday's report on the Fed's preferred inflation measure is expected to show prices up 3.8% from a year earlier. Bond investors demand higher yields when inflation eats into what their interest is worth, and mortgage rates follow."
+    },
+    {
+      "title": "Mortgage rates still far above Treasuries",
+      "effect": "down",
+      "weight": 1,
+      "text": "The Optimal Blue conforming index sat about 2.19% above the 10-year Treasury yield on Nov 17, compared with a long-run average of about 1.76%. That wide gap is a cushion: lenders can absorb part of a jump in Treasury yields, and have room to lower rates if bonds hold their gains."
+    }
+  ],
+  "outlook": {
+    "horizonLabel": "Next 30 days (through Dec 23)",
+    "base": 7.33,
+    "baseSource": "Mortgage News Daily, Nov 20 close (latest available)",
+    "flatBand": 0.125,
+    "up": 33,
+    "flat": 36,
+    "down": 31,
+    "confidence": "Low to moderate",
+    "basis": "The odds are close to even, tilted slightly higher because rates start from Friday's two-week low and yields are rising this morning. Mortgage rates fell to 7.33% as a stock rout drove investors into bonds, but stocks are bouncing back today. In borrowers' favor: shaky stocks, fading talk of a bigger Fed hike, and mortgage rates still sit unusually far above the 10-year Treasury (about 2.19% vs. a long-run average near 1.76%). Working against borrowers: a December Fed hike is still widely expected and inflation reports keep running hot, so a steady stock recovery or a hot report could undo Friday's gains quickly. Big swing events: the Nov 25 report on the Fed's preferred inflation measure, the Dec 4 jobs report, the Dec 9 Fed decision, Dec 10 consumer prices and oil headlines.",
+    "caveat": "This is professional judgment from 30+ years watching these markets, not a guarantee. One oil headline or data surprise can move rates a quarter point in a day."
+  },
+  "calendar": [
+    {
+      "date": "2026-11-16",
+      "label": "Mon, Nov 16",
+      "event": "New York Fed factory survey (Empire State); Fed Chair Warsh, Williams, Hammack and Barkin speak",
+      "impact": "medium",
+      "why": "A weak factory reading tends to pull rates down, while Fed comments about more hikes can push them up.",
+      "forecast": "17.6",
+      "prior": "25.5",
+      "actual": "7.8; Warsh spoke about AI and gave no signal on rates",
+      "surprise": "cooler",
+      "surpriseLabel": "much weaker than expected"
+    },
+    {
+      "date": "2026-11-17",
+      "label": "Tue, Nov 17",
+      "event": "October retail sales and industrial production; Nvidia earnings after the close",
+      "impact": "medium",
+      "why": "Strong spending signals a sturdy economy, which tends to push rates up; weaker factory output tends to pull them down.",
+      "prior": "Retail sales +0.8%; ex-autos +1.1%; industrial production +0.7%",
+      "forecast": "Spending ex-autos +0.4%; industrial production +0.1%",
+      "actual": "Retail sales +0.2%; ex-autos +0.6%; industrial production -0.4%; Nvidia revenue $115.8B, above forecasts",
+      "surprise": "inline",
+      "surpriseLabel": "mixed: spending firm, factory output weaker"
+    },
+    {
+      "date": "2026-11-18",
+      "label": "Wed, Nov 18",
+      "event": "October housing starts; MBA weekly mortgage survey; $16B 20-year bond sale (10 AM PT); minutes of the October Fed meeting (11 AM PT)",
+      "impact": "medium",
+      "why": "The minutes show how many officials lean toward more hikes after December, and strong home building signals a sturdy economy.",
+      "actual": "Housing starts 1.31M pace, up 9.9% (single-family permits fell 8.7%); MBA 30-year rate 7.35%, up from 7.21%; applications -2.3%; 20-year bond sold at 5.459%, in line with expectations; Fed minutes showed almost all officials expect more hikes",
+      "surprise": "hotter",
+      "surpriseLabel": "stronger than expected",
+      "reaction": "The 10-year yield ended about 0.03% lower near 5.07%, helped more by falling oil than by the minutes, and mortgage bond prices rose slightly."
+    },
+    {
+      "date": "2026-11-19",
+      "label": "Thu, Nov 19",
+      "event": "Weekly jobless claims, Philadelphia Fed factory survey, Freddie Mac weekly rate survey (9 AM PT); Fed speakers Hammack, Jefferson, Goolsbee, Barr and Barkin",
+      "impact": "low",
+      "why": "Low layoffs keep the job market looking sturdy, which tends to keep rates firm.",
+      "prior": "Claims 200K; Philadelphia Fed index 20.9",
+      "actual": "Claims 203K (continuing claims 1.76M, up 70K); Philadelphia Fed factory index 6.3, down from 20.9, with prices paid rising; Freddie Mac 30-year 7.28%, up from 7.11%",
+      "surprise": "cooler",
+      "surpriseLabel": "slightly weaker than expected",
+      "reaction": "The 10-year yield ended near 5.05%, down slightly, after stocks fell about 2%, and mortgage bond prices rose."
+    },
+    {
+      "date": "2026-11-20",
+      "label": "Fri, Nov 20",
+      "event": "Final November consumer sentiment (University of Michigan); Fed Governors Waller (8:25 AM ET) and Cook (12:15 PM ET) speak",
+      "impact": "low",
+      "why": "Consumers' inflation expectations feed into the Fed's thinking, and Fed comments about more hikes can push rates up.",
+      "forecast": "51.5",
+      "prior": "51.0 (early November)",
+      "actual": "51.5; consumers expect 3.7% inflation over the next year, down from 4.3% early this month, and 3.3% over five years",
+      "surprise": "inline",
+      "surpriseLabel": "in line, with lower inflation expectations",
+      "reaction": "Stocks fell 3.7% and the 10-year yield dropped about 0.12% to near 4.92%, and lenders cut mortgage rates during the day."
+    },
+    {
+      "date": "2026-11-23",
+      "label": "Mon, Nov 23",
+      "event": "November business surveys (S&P Global flash PMIs, 9:45 AM ET); $69B 2-year note sale (1 PM ET); New York Fed President Williams speaks (4 PM ET)",
+      "impact": "medium",
+      "why": "Williams is one of the Fed's most influential voices, so any hint about the pace of hikes can move rates.",
+      "forecast": "Manufacturing 54.5; services about 55.6",
+      "prior": "Manufacturing 54.9; services 56.1"
+    },
+    {
+      "date": "2026-11-24",
+      "label": "Tue, Nov 24",
+      "event": "Consumer confidence (Conference Board) and September home prices; $70B 5-year note sale",
+      "impact": "low",
+      "why": "Weak confidence would point to a slowing economy, which tends to pull rates down."
+    },
+    {
+      "date": "2026-11-25",
+      "label": "Wed, Nov 25",
+      "event": "October PCE inflation, the Fed's preferred measure, plus a second look at Q3 growth, durable goods orders and weekly jobless claims (8:30 AM ET); new home sales (10 AM ET); Fed Beige Book (2 PM ET)",
+      "impact": "high",
+      "why": "Hotter inflation would add to the case for more Fed hikes and push rates up.",
+      "prior": "0.5% monthly (3.6% yearly); core 0.3% (3.1% yearly)",
+      "nowcast": "Core 0.27% m/m (3.2% yearly)",
+      "forecast": "0.3% monthly (3.8% yearly); core 0.3% (3.2% yearly)"
+    },
+    {
+      "date": "2026-11-26",
+      "label": "Thu, Nov 26",
+      "event": "Thanksgiving: U.S. bond market closed; early 2:00 PM ET close Friday, Nov 27 (SIFMA)",
+      "impact": "low"
+    },
+    {
+      "date": "2026-12-01",
+      "label": "Tue, Dec 1",
+      "event": "November factory survey (ISM) and October job openings",
+      "impact": "medium",
+      "why": "Signs the economy or job market is cooling tend to pull rates down.",
+      "prior": "ISM 55.5; job openings 7.52M"
+    },
+    {
+      "date": "2026-12-04",
+      "label": "Fri, Dec 4",
+      "event": "November jobs report",
+      "impact": "high",
+      "why": "The last jobs report before the Dec 9 Fed meeting."
+    },
+    {
+      "date": "2026-12-09",
+      "label": "Wed, Dec 9",
+      "event": "Fed rate decision (meeting Dec 8-9)",
+      "impact": "high",
+      "why": "Markets expect a quarter-point hike; a surprise either way, or hints about what comes next, would move rates."
+    },
+    {
+      "date": "2026-12-10",
+      "label": "Thu, Dec 10",
+      "event": "November CPI inflation report",
+      "impact": "high",
+      "why": "Consumer inflation is the Fed's biggest worry right now, so this report can move rates sharply.",
+      "nowcast": "0.07% m/m; core 0.21% m/m"
+    },
+    {
+      "date": "2026-12-15",
+      "label": "Tue, Dec 15",
+      "event": "November wholesale inflation (PPI)",
+      "impact": "medium",
+      "why": "Rising business costs can show up later in consumer prices."
+    },
+    {
+      "date": "2026-12-23",
+      "label": "Wed, Dec 23",
+      "event": "November PCE inflation",
+      "impact": "high",
+      "why": "The Fed's preferred inflation gauge; a hot reading would add to the case for more hikes."
+    },
+    {
+      "date": "",
+      "label": "Ongoing",
+      "event": "Iran tensions, including drone attacks on a U.S. base in Bahrain and threats to shipping near the Strait of Hormuz, and their effect on oil prices",
+      "impact": "medium"
+    }
+  ],
+  "talkingPoints": {
+    "buyers": "Mortgage rates had their best day in weeks Friday, with the daily 30-year average dropping to 7.33%, the lowest since Nov 10. Yields are climbing back a bit this morning as stocks rebound, and a December Fed hike is still expected, so the next few weeks could be bumpy. If you're under contract or close to it, talk with Stuart about how locking, a float-down option (which lets you take a lower rate if rates drop after you lock), or waiting would each fit your closing date.",
+    "sellers": "Rates just dipped to a two-week low around 7.33%, a small break for buyers heading into the holidays. Realistic pricing, or a seller credit buyers can use to lower their rate, can help a home stand out while buyers are watching every payment.",
+    "oneLiner": "Mortgage rates fell to a two-week low near 7.33% Friday as a stock selloff pushed bond yields down, though yields are edging back up this morning."
+  },
+  "scorecard": [
+    {
+      "made": "2026-10-14",
+      "base": 7.56,
+      "up": 40,
+      "flat": 35,
+      "down": 25,
+      "gradeOn": "2026-11-13",
+      "actual": 7.42,
+      "result": "miss"
+    },
+    {
+      "made": "2026-10-19",
+      "base": 7.37,
+      "up": 30,
+      "flat": 36,
+      "down": 34,
+      "gradeOn": "2026-11-18",
+      "actual": 7.48,
+      "result": "hit"
+    },
+    {
+      "made": "2026-10-26",
+      "base": 7.33,
+      "up": 32,
+      "flat": 37,
+      "down": 31,
+      "gradeOn": "2026-11-25",
+      "actual": null,
+      "result": null
+    },
+    {
+      "made": "2026-11-02",
+      "base": 7.27,
+      "up": 30,
+      "flat": 38,
+      "down": 32,
+      "gradeOn": "2026-12-02",
+      "actual": null,
+      "result": null
+    },
+    {
+      "made": "2026-11-09",
+      "base": 7.17,
+      "up": 33,
+      "flat": 38,
+      "down": 29,
+      "gradeOn": "2026-12-09",
+      "actual": null,
+      "result": null
+    },
+    {
+      "made": "2026-11-16",
+      "base": 7.5,
+      "up": 34,
+      "flat": 36,
+      "down": 30,
+      "gradeOn": "2026-12-16",
+      "actual": null,
+      "result": null
+    },
+    {
+      "made": "2026-11-23",
+      "base": 7.33,
+      "up": 33,
+      "flat": 36,
+      "down": 31,
+      "gradeOn": "2026-12-23",
+      "actual": null,
+      "result": null
+    }
+  ],
+  "paymentCompare": [
+    {
+      "label": "Sep 3",
+      "value": 6.71,
+      "source": "Freddie Mac"
+    },
+    {
+      "label": "Nov 19",
+      "value": 7.28,
+      "source": "Freddie Mac"
+    },
+    {
+      "label": "Today",
+      "value": 7.33,
+      "source": "Mortgage News Daily"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Mortgage News Daily: daily rate index (30-year 7.33% Nov 20, down 0.12%; 15-year 6.89%) and Friday article, Mortgage Rates Much Lower on Friday (3:03 PM ET)",
+      "date": "Nov 20, 2026",
+      "url": "https://www.mortgagenewsdaily.com/mortgage-rates"
+    },
+    {
+      "name": "Mortgage News Daily: 30-year fixed daily history (Nov 13-20)",
+      "date": "Nov 20, 2026",
+      "url": "https://www.mortgagenewsdaily.com/mortgage-rates/30-year-fixed"
+    },
+    {
+      "name": "Mortgage News Daily newsletter, Nov 20 (lowest since Nov 10; mid-day lender rate cuts; stock weakness lifted bonds)",
+      "date": "Nov 20, 2026",
+      "url": "https://www.mortgagenewsdaily.com/newsletter/n/20261120"
+    },
+    {
+      "name": "Mortgage News Daily: 10-year Treasury page (Nov 20 close listed at 4.94%)",
+      "date": "Nov 23, 2026",
+      "url": "https://www.mortgagenewsdaily.com/treasury/10yr"
+    },
+    {
+      "name": "Freddie Mac PMMS release: Mortgage rates average 7.28% (15-year 6.66%), Nov 19",
+      "date": "Nov 19, 2026",
+      "url": "https://www.globenewswire.com/news-release/2026/11/19/3406994/0/en/mortgage-rates-average-7-28.html"
+    },
+    {
+      "name": "Freddie Mac PMMS",
+      "date": "Nov 19, 2026",
+      "url": "https://www.freddiemac.com/pmms"
+    },
+    {
+      "name": "MortgageDaily: Optimal Blue 30-year 7.29% (Nov 19 observation; article body and sidebar differ on Nov 18-19 values)",
+      "date": "Nov 20, 2026",
+      "url": "https://www.mortgagedaily.com/rates/mortgage-rates-today-2026-11-20/"
+    },
+    {
+      "name": "MortgageDaily: weekly recap, Nov 16-20",
+      "date": "Nov 21, 2026",
+      "url": "https://www.mortgagedaily.com/rates/mortgage-rates-weekly-recap-2026-11-21/"
+    },
+    {
+      "name": "MortgageDaily: Mortgage rates next week, Nov 23-27 (10-year about 4.92% Friday; calendar; Thanksgiving bond market closure)",
+      "date": "Nov 22, 2026",
+      "url": "https://www.mortgagedaily.com/rates/mortgage-rates-week-ahead-2026-11-22/"
+    },
+    {
+      "name": "Yahoo Finance / Zillow: Mortgage rates today, Nov 23 (30-year purchase 7.18%, as of Nov 20 noon ET)",
+      "date": "Nov 23, 2026",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-monday-november-23-2026-purchase-mortgage-rates-lower-than-refinance-rates-110000624.html"
+    },
+    {
+      "name": "Fortune / Mortgage Research Center: Mortgage rates today, Nov 23 (30-year 7.195%)",
+      "date": "Nov 23, 2026",
+      "url": "https://fortune.com/article/current-mortgage-rates-11-23-2026/"
+    },
+    {
+      "name": "NerdWallet / Zillow: Mortgage rates today, Nov 20 (30-year 7.24% APR)",
+      "date": "Nov 20, 2026",
+      "url": "https://www.nerdwallet.com/mortgages/news/mortgage-rates-today-friday-november-20-2026"
+    },
+    {
+      "name": "Federal Reserve H.15 Selected Interest Rates (10-year 5.04% Nov 19; fed funds effective 3.88%; prime 7.00%)",
+      "date": "Nov 20, 2026",
+      "url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "name": "Quackonomist Pre-Market, Nov 23 (Treasury par yields Nov 20: 10-year 4.92%; CNBC 5:15 AM ET: 10-year 4.959%, FedWatch about 96%; Williams 4 PM ET)",
+      "date": "Nov 23, 2026",
+      "url": "https://quackonomist.substack.com/p/quackonomist-pre-market-23-nov-2026"
+    },
+    {
+      "name": "Avalon Capital Research: Weekly Playbook (S&P 500 -3.70% Friday, -8.61% week; 10-year 4.92%; FedWatch 91.4%; PCE consensus)",
+      "date": "Nov 23, 2026",
+      "url": "https://avaloncapitalresearch.substack.com/p/weekly-playbook-futures-put-a-december"
+    },
+    {
+      "name": "BlockBeats via KuCoin: CME FedWatch December quarter-point hike 93.2%, hold 6.8%",
+      "date": "Nov 23, 2026",
+      "url": "https://www.kucoin.com/news/flash/fed-s-december-25-bp-hike-probability-drops-to-93-2"
+    },
+    {
+      "name": "Beinsure / Reuters: US stock futures surge as Nasdaq rebounds (10-year up 5 basis points to 4.96%)",
+      "date": "Nov 23, 2026",
+      "url": "https://beinsure.com/news/dow-jones-and-us-stock-futures-surge-as-nasdaq-100-rebounds/"
+    },
+    {
+      "name": "Reuters via Yahoo Finance: US futures bounce as AI selloff pauses",
+      "date": "Nov 22, 2026",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/us-futures-bounce-while-asia-234419517.html"
+    },
+    {
+      "name": "The Blye Sheet: Before the Bell, Nov 23 (10-year about 4.93%; oil; Bessent weekend remarks)",
+      "date": "Nov 23, 2026",
+      "url": "https://theblyesheet.substack.com/p/the-blye-sheet-before-the-bell-november-cab"
+    },
+    {
+      "name": "CNBC: Treasury yields jump as stock futures rebound, investors await Williams speech (headline via Biztoc)",
+      "date": "Nov 23, 2026",
+      "url": "https://biztoc.com/x/321ed4e2fec44a00"
+    },
+    {
+      "name": "Trading Economics: US 10-year Treasury yield (about 4.95% Monday; Bessent on overtightening)",
+      "date": "Nov 23, 2026",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+    },
+    {
+      "name": "The Daily Macro Brief, Nov 23 (Friday 10-year 4.92%; PCE and GDP Nov 25)",
+      "date": "Nov 23, 2026",
+      "url": "https://dn12448583.substack.com/p/the-daily-macro-brief-november-23"
+    },
+    {
+      "name": "investingLive: Market outlook for the week of Nov 23-27 (PCE and income/spending consensus)",
+      "date": "Nov 23, 2026",
+      "url": "https://investinglive.com/forex/market-outlook-for-the-week-of-23rd-27th-november"
+    },
+    {
+      "name": "Nowflation economic calendar (consensus for PMIs, PCE, durable goods, claims, new home sales; Cleveland Fed November CPI nowcast)",
+      "date": "Nov 22, 2026",
+      "url": "https://nowflation.com/calendar"
+    },
+    {
+      "name": "Xoomar: Next PCE report Nov 25, 8:30 AM ET; November PCE Dec 23",
+      "date": "Nov 22, 2026",
+      "url": "https://xoomar.com/markets/calendar/pce"
+    },
+    {
+      "name": "FRED: Optimal Blue 30-year conforming index (OBMMIC30YF, 7.286% Nov 17; page not readable this morning)",
+      "date": "Nov 17, 2026",
+      "url": "https://fred.stlouisfed.org/series/OBMMIC30YF"
+    },
+    {
+      "name": "Newsquawk: MBA 30-year mortgage rate 7.35% (prev 7.21%), week of Nov 13",
+      "date": "Nov 18, 2026",
+      "url": "https://www.newsquawk.com/headlines/us-mba-30-year-mortgage-rate-nov13-735-prev-721"
+    },
+    {
+      "name": "Cleveland Fed Inflation Nowcasting (October PCE, November CPI estimates, updated Nov 19)",
+      "date": "Nov 19, 2026",
+      "url": "https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting"
+    },
+    {
+      "name": "Federal Reserve: Summary of Economic Projections, Sep 16, 2026",
+      "date": "Sep 16, 2026",
+      "url": "https://federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm"
+    },
+    {
+      "name": "BEA release schedule (October PCE and Q3 GDP second estimate Nov 25)",
+      "date": "Nov 16, 2026",
+      "url": "https://www.bea.gov/news/schedule"
+    },
+    {
+      "name": "BLS December 2026 release schedule (jobs Dec 4, CPI Dec 10, PPI Dec 15)",
+      "date": "Nov 16, 2026",
+      "url": "https://www.bls.gov/schedule/2026/12_sched_list.htm"
+    },
+    {
+      "name": "BLS: Consumer Price Index, October 2026",
+      "date": "Nov 10, 2026",
+      "url": "https://www.bls.gov/news.release/archives/cpi_11102026.htm"
+    },
+    {
+      "name": "Trading Economics: University of Michigan consumer sentiment, final November 51.5",
+      "date": "Nov 20, 2026",
+      "url": "https://tradingeconomics.com/united-states/consumer-confidence"
+    },
+    {
+      "name": "Options Pilot: October Fed minutes, almost all see further hikes",
+      "date": "Nov 18, 2026",
+      "url": "https://optionspilot.app/blog/fomc-minutes-october-2026-almost-all-see-further-rate-hikes-couple-floated-more-than-25-bp-ai-debt-warning-spy-straddle-vix-options-nov-18-2026"
+    },
+    {
+      "name": "IndexBox (citing Reuters/CNBC): Waller weighs half-point December hike",
+      "date": "Nov 18, 2026",
+      "url": "https://www.indexbox.io/blog/feds-waller-urges-forceful-action-against-broadening-inflation/"
+    },
+    {
+      "name": "Reuters via WHBL: US weekly jobless claims 203,000",
+      "date": "Nov 19, 2026",
+      "url": "https://whbl.com/2026/11/19/us-weekly-jobless-claims-increase-slightly-3/"
+    }
+  ],
+  "keyRates": {
+    "title": "Key rates: Fed funds and prime",
+    "fedFunds": {
+      "low": 3.75,
+      "high": 4,
+      "effective": 3.88,
+      "effectiveAsOf": "2026-11-19",
+      "lastChange": "2026-09-16",
+      "lastMove": 0.25
+    },
+    "prime": {
+      "value": 7,
+      "prior": 6.75,
+      "asOf": "2026-11-19",
+      "lastChange": "2026-09-16"
+    },
+    "nextMeeting": "2026-12-09",
+    "nextMeetingLabel": "Wed, Dec 9",
+    "source": "Federal Reserve H.15 (Nov 20, 2026 release, data through Nov 19: fed funds effective 3.88%, prime 7.00%); WSJ Prime Rate via Bankrate (page updated Nov 3, 2026, 7.00%). No Fed rate change since Sep 16; next decision Dec 9.",
+    "history": [
+      {
+        "date": "2023-10-14",
+        "prime": 8.5
+      },
+      {
+        "date": "2024-09-18",
+        "prime": 8
+      },
+      {
+        "date": "2024-11-07",
+        "prime": 7.75
+      },
+      {
+        "date": "2024-12-18",
+        "prime": 7.5
+      },
+      {
+        "date": "2025-09-17",
+        "prime": 7.25
+      },
+      {
+        "date": "2025-10-29",
+        "prime": 7
+      },
+      {
+        "date": "2025-12-10",
+        "prime": 6.75
+      },
+      {
+        "date": "2026-09-16",
+        "prime": 7
+      }
+    ],
+    "historyNote": "Prime changes on the day of each Fed decision. The Fed funds range is prime minus 3% (top) and minus 3.25% (bottom). Oct 2023 value is the rate in effect since Jul 26, 2023."
+  },
+  "largeMoveConfirmed": false,
+  "status": "published",
+  "publishedBy": "Morning task",
+  "checks": [
+    {
+      "name": "Headline, takeaway and tile reason are filled in",
+      "ok": true,
+      "detail": "",
+      "source": "morning"
+    },
+    {
+      "name": "Today's 30-year rate is in a realistic range (4%-10%)",
+      "ok": true,
+      "detail": "7.33%",
+      "source": "morning"
+    },
+    {
+      "name": "One-day move is normal (under 0.35%), or confirmed by two sources",
+      "ok": true,
+      "detail": "Move: 0.12%",
+      "source": "morning"
+    },
+    {
+      "name": "The 30-day odds add up to 100%",
+      "ok": true,
+      "detail": "100",
+      "source": "morning"
+    },
+    {
+      "name": "The update is dated within the last 4 days",
+      "ok": true,
+      "detail": "2026-11-23",
+      "source": "morning"
+    },
+    {
+      "name": "At least two sources, each with a date and link",
+      "ok": true,
+      "detail": "36 sources",
+      "source": "morning"
+    },
+    {
+      "name": "Headline rate agrees with at least one other survey (within 0.25%)",
+      "ok": true,
+      "detail": "6 surveys within range",
+      "source": "morning"
+    },
+    {
+      "name": "No guarantees or lock/float advice in the wording",
+      "ok": true,
+      "detail": "",
+      "source": "morning"
+    },
+    {
+      "name": "Every driver has a title and explanation",
+      "ok": true,
+      "detail": "",
+      "source": "morning"
+    },
+    {
+      "name": "Disclaimer pieces present (outlook caveat, sources dated)",
+      "ok": true,
+      "detail": "",
+      "source": "morning"
+    },
+    {
+      "name": "Fed meeting outcomes add up to 100% (within 1 for rounding)",
+      "ok": true,
+      "detail": "100",
+      "source": "morning"
+    },
+    {
+      "name": "Fed odds show when they were read",
+      "ok": true,
+      "detail": "",
+      "source": "morning"
+    }
+  ]
+}
