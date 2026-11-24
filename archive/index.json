@@ -2,6 +2,12 @@
   "keepDays": 30,
   "reports": [
     {
+      "date": "2026-11-24",
+      "headline": "Rates Hold Near Two-Week Low Despite Stock Rebound",
+      "direction": "flat",
+      "rate": 7.34
+    },
+    {
       "date": "2026-11-23",
       "headline": "Rates Fall to Two-Week Low as Stocks Tumble",
       "direction": "down",
