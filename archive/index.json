@@ -2,6 +2,12 @@
   "keepDays": 30,
   "reports": [
     {
+      "date": "2026-11-25",
+      "headline": "Rates Slip Further as Tech Selloff Outweighs Inflation",
+      "direction": "flat",
+      "rate": 7.32
+    },
+    {
       "date": "2026-11-24",
       "headline": "Rates Hold Near Two-Week Low Despite Stock Rebound",
       "direction": "flat",
