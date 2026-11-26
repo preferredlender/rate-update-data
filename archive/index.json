@@ -2,6 +2,12 @@
   "keepDays": 30,
   "reports": [
     {
+      "date": "2026-11-26",
+      "headline": "Rates Ease to Two-Week Low Amid Stock Slide",
+      "direction": "down",
+      "rate": 7.26
+    },
+    {
       "date": "2026-11-25",
       "headline": "Rates Slip Further as Tech Selloff Outweighs Inflation",
       "direction": "flat",
@@ -118,12 +124,6 @@
     {
       "date": "2026-10-27",
       "headline": "Rates Hold Steady as Markets Wait on the Fed",
-      "direction": "flat",
-      "rate": 7.33
-    },
-    {
-      "date": "2026-10-26",
-      "headline": "Rates Hold Near 1-Month Lows as Oil Eases Into Fed Week",
       "direction": "flat",
       "rate": 7.33
     }
