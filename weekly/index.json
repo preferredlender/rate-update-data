@@ -2,6 +2,15 @@
   "keepWeeks": 13,
   "weeks": [
     {
+      "weekEnd": "2026-11-27",
+      "weekStart": "2026-11-23",
+      "weekLabel": "Week of Nov 23\u201327, 2026",
+      "headline": "Rates Edge Lower in a Holiday Week Steered by Stock Swings",
+      "direction": "down",
+      "start": 7.33,
+      "end": 7.29
+    },
+    {
       "weekEnd": "2026-11-20",
       "weekStart": "2026-11-16",
       "weekLabel": "Week of Nov 16\u201320, 2026",
